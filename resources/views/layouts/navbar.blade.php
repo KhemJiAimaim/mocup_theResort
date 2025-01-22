@@ -1,6 +1,6 @@
 <nav id="navbar"
     class="fixed w-full z-[99] mx-auto bg-transparent text-white items-center py-2 max-xl:px-2 transition-all duration-100 rounded-b-lg">
-    <div class="xl:w-4/5 mx-auto flex justify-between gap-2 items-center">
+    <div class="max-w-[1536px] m-auto flex justify-between gap-2 items-center">
         <div class="lg:w-1/6 flex justify-start sm:text-xl text-base font-light font-afacadFlux sm:p-2">
             <p>LOGO HERE</p>
         </div>
@@ -66,34 +66,34 @@
         </div>
 
         {{-- EN TH --}}
-        <div class="w-1/6 justify-end  max-lg:hidden relative">
-            <div id="lang-EN" class="w-[130px] rounded-md bg-[rgba(0,0,0,0.1)] p-4 flex flex-col gap-y-2">
+        <div class="w-1/6 flex justify-end  max-lg:hidden relative px-4">
+            <div id="lang-EN" class="w-[130px] rounded-md bg-[rgba(0,0,0,0.1)] p-4 flex flex-col gap-y-2 ">
                 <div class="flex justify-between items-center">
-                    <div class="w-[40px] h-full">
+                    <div class="w-[40px] h-full shadow-md">
                         <img src="/images/icon/united-states 1.png" alt="" class="w-full h-full">
                     </div>
                     <p class=" text-white font-kanit font-[300] xl:text-lg text-sm">EN</p>
-                    <div class="w-[15px] h-full flex justify-center cursor-pointer hover:scale-110" id="open_leng_ENTH">
+                    <div class="w-[20px] h-full flex justify-center cursor-pointer hover:scale-110" id="open_leng_ENTH">
                         <img src="/images/icon/ep_arrow-up.png" alt=""
                             class="w-full h-full transition-transform duration-300 ease-in-out">
                     </div>
                 </div>
             </div>
             <!-- เมนูภาษา -->
-            <div class="w-[130px] rounded-md bg-slate-100 p-4 absolute top-full left-0 mt-2 hidden z-10 scale-95"
+            <div class="w-[130px] rounded-md bg-slate-100 p-4 absolute top-full right-4 mt-2 hidden z-10 scale-95"
                 id="leng_ENTH">
-                <div class="flex flex-col justify-start gap-y-2">
+                <div class="flex flex-col justify-end gap-y-2">
                     <div
                         class="flex justify-start items-center gap-2 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D] before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:-bottom-2 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:-bottom-2 after:right-[50%]">
-                        <div class="w-[40px] h-full">
-                            <img src="/images/icon/united-states 1.png" alt="" class="w-full h-full" />
+                        <div class="w-[40px] h-full shadow-md">
+                            <img src="/images/icon/united-states 1.png" alt="" class="w-full h-full " />
                         </div>
                         <p class=" text-black font-kanit font-[400] xl:text-lg text-sm">EN</p>
                     </div>
                     <hr />
                     <div
                         class="flex justify-start items-center gap-2 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D] before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:-bottom-2 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:-bottom-2 after:right-[50%]">
-                        <div class="w-[40px] h-full">
+                        <div class="w-[40px] h-full shadow-md">
                             <img src="/images/icon/cif_th.png" alt="" class="w-full h-full" />
                         </div>
                         <p class=" text-black font-kanit font-[400] xl:text-lg text-sm">TH</p>
@@ -108,8 +108,8 @@
 
 
 {{-- mobile --}}
-<div class="m-nav inset-0 shadow-md overflow-hidden z-[100] flex justify-end pt-6 fixed bg-[rgba(7,53,70,0.75)] ">
-    <div class="w-[50%] max-sm:w-[80%] h-full bg-slate-50 p-2 px-4 flex flex-col ">
+<div class="m-nav inset-0 shadow-md overflow-hidden z-[100] flex justify-end fixed bg-[rgba(7,53,70,0.75)] ">
+    <div class="w-full max-sm:w-[80%] h-full bg-slate-50 p-2 px-4 flex flex-col ">
         <div class="flex justify-end">
             <div class="w-6 h-6 cursor-pointer hover:scale-110 transition-opacity duration-200" id="close-cate">
                 <img src="/images/icon/close-bold-svgrepo-com.png" alt="Close Icon" class="w-full h-full">
