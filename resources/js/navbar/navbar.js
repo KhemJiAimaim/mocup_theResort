@@ -26,7 +26,7 @@ window.addEventListener("scroll", () => {
 document.addEventListener("DOMContentLoaded", function () {
     const langButton = document.getElementById("open_leng_ENTH"); // ปุ่มเปิด/ปิดเมนู
     const langMenu = document.getElementById("leng_ENTH"); // เมนูภาษาที่จะเปิด/ปิด
-    const arrowIcon = langButton.querySelector("img"); // ไอคอนลูกศร
+    const arrowIcon = document.getElementById("arrow-up"); // ไอคอนลูกศร
 
     langButton.addEventListener("click", function (event) {
         event.stopPropagation();

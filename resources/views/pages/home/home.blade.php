@@ -22,9 +22,9 @@
 
 @section('contents')
     @include('pages.home.swiper')
-    <div class="max-w-[1536px] m-auto text-2xl font-kanit">
+    <div class="text-2xl font-kanit">
 
-        <section class="py-8 p-4 ">
+        <section class="max-w-[1536px] m-auto py-8 p-4 ">
             <div class="flex flex-col sm:gap-y-16 gap-y-8">
                 <div class="flex flex-col justify-center items-center sm:gap-y-6 gap-y-2" data-aos="zoom-in"
                     data-aos-duration="3000">
@@ -32,11 +32,12 @@
                         <img src="/images/logo/Mask group.png" alt="" class="w-full h-auto">
                     </div>
 
-                    <p class="font-[500] tracking-widest lg:text-3xl sm:text-2xl text-lg">
+                    <p class="font-[500] tracking-widest lg:text-3xl sm:text-2xl text-lg uppercase">
                         OUR ROOM
                     </p>
 
-                    <div class="border-t border-2 border-[#CDB59D] max-w-[50%] my-2 w-full rounded-full"></div>
+                    <div class="border-t border-2 border-[#CDB59D] max-w-[50%] my-2 w-full rounded-full" data-aos="zoom-in"
+                        data-aos-duration="3000"></div>
 
                     <p class="font-light xl:text-2xl sm:text-lg text-sm text-center max-w-[90%] w-full">
                         Lorem ipsum dolor sit amet consectetur. Elementum et pellentesque habitant id. Id feugiat eget
@@ -143,8 +144,6 @@
                             </p>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </section>
@@ -154,22 +153,23 @@
                 <img src="/images/img/image 9.png" alt="" class="w-full h-full object-cover">
             </div>
 
-            <div class="flex flex-col sm:gap-y-16 gap-y-8 py-8 px-4">
+            <div class="max-w-[1536px] m-auto flex flex-col sm:gap-y-16 gap-y-8 py-8 px-4">
                 <div class="flex flex-col justify-center items-center sm:gap-y-6 gap-y-2" data-aos="zoom-in"
-                    data-aos-duration="3000">
+                    data-aos-duration="2000">
                     <div class="w-44">
                         <img src="/images/logo/Mask group.png" alt="" class="w-full h-auto">
                     </div>
 
-                    <p class="font-[300] tracking-widest sm:text-2xl text-sm text-[#CDB59D]">
+                    <p class="font-[300] tracking-widest sm:text-2xl text-sm text-[#CDB59D] uppercase">
                         OUR SPECIAL
                     </p>
 
-                    <p class="font-[500] tracking-widest lg:text-3xl sm:text-2xl text-lg">
+                    <p class="font-[300] tracking-widest lg:text-4xl sm:text-3xl text-lg uppercase">
                         SERVICE
                     </p>
 
-                    <div class="border-t border-2 border-[#CDB59D] max-w-[30%] my-2 w-[80%] rounded-full"></div>
+                    <div class="border-t border-2 border-[#CDB59D] max-w-[30%] my-2 w-[80%] rounded-full" data-aos="zoom-in"
+                        data-aos-duration="3000"></div>
 
                 </div>
 
@@ -181,7 +181,7 @@
                         <div class="w-[70px] sm:w-[85px] m-auto h-full">
                             <img src="/images/icon/Group 291.png" alt="" class="w-full h-full">
                         </div>
-                        <p class="xl:text-2xl sm:text-base text-base font-medium">
+                        <p class="xl:text-2xl sm:text-base text-base font-medium uppercase">
                             RESTAURANT
                         </p>
                         <p class="line-clamp-4 text-center xl:text-2xl sm:text-base text-sm font-extralight h-[90px]">
@@ -194,7 +194,7 @@
                         <div class="w-[70px] sm:w-[85px] m-auto h-full">
                             <img src="/images/icon/Group 292.png" alt="" class="w-full h-full">
                         </div>
-                        <p class="xl:text-2xl sm:text-base text-base font-medium">
+                        <p class="xl:text-2xl sm:text-base text-base font-medium uppercase">
                             COFFE CAFE
                         </p>
                         <p class="line-clamp-4 text-center xl:text-2xl sm:text-base text-sm font-extralight h-[90px]">
@@ -207,7 +207,7 @@
                         <div class="w-[70px] sm:w-[85px] m-auto h-full">
                             <img src="/images/icon/Group 294.png" alt="" class="w-full h-full">
                         </div>
-                        <p class="xl:text-2xl sm:text-base text-base font-medium">
+                        <p class="xl:text-2xl sm:text-base text-base font-medium uppercase">
                             SWIMMING POOL
                         </p>
                         <p class="line-clamp-4 text-center xl:text-2xl sm:text-base text-sm font-extralight h-[90px]">
@@ -220,7 +220,7 @@
                         <div class="w-[70px] sm:w-[85px] m-auto h-full">
                             <img src="/images/icon/Group 295.png" alt="" class="w-full h-full">
                         </div>
-                        <p class="xl:text-2xl sm:text-base text-base font-medium">
+                        <p class="xl:text-2xl sm:text-base text-base font-medium uppercase">
                             FREE WIFI
                         </p>
                         <p class="line-clamp-4 text-center xl:text-2xl sm:text-base text-sm font-extralight h-[90px]">
@@ -228,30 +228,299 @@
                         </p>
                     </div>
 
-
-
                 </div>
             </div>
         </section>
 
-        <section class="relative">
+        <section class="relative z-50 pb-12">
             <div class="absolute w-full h-full">
                 <img src="/images/img/Group 115.png" alt="" class="w-full h-full object-cover">
             </div>
-            <div class="py-8 p-4">
-            <div class="flex justify-between items-center">
-                <div class="w-full z-50">
-                    <div class="w-[650px] h-auto">
-                        <img src="/images/img/image 91.png" alt="" class="w-full h-full ">
+
+
+            <div class="max-w-[1536px] m-auto py-8 p-4">
+                {{-- ABOUT US --}}
+                <div class="flex justify-between items-center max-lg:flex-col gap-4">
+                    <div class="w-full z-50 flex justify-start max-lg:order-2">
+                        <div class="max-w-[650px] m-auto h-auto relative" data-aos="fade-right" data-aos-duration="3000">
+                            <img src="/images/img/image 91.png" alt="" class="w-full h-full rounded-lg ">
+
+                            <div
+                                class="absolute inset-0 flex justify-center items-center hover:scale-105 transition-all ease-in-out duration-300 cursor-pointer z-50">
+                                <div class="w-12 h-12">
+                                    <img src="/images/icon/Group 104.png" alt="" class="w-full h-full shadow-md">
+                                </div>
+                            </div>
+                            <div class="absolute top-0 left-0 w-full h-full bg-black opacity-25"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="flex flex-col justify-center items-center sm:gap-y-6 gap-y-2 w-full max-lg:order-1"
+                        data-aos="fade-left" data-aos-duration="3000">
+                        <div class="max-w-10">
+                            <img src="/images/icon/45.png" alt="" class="w-full h-auto">
+                        </div>
+
+                        <p class="font-[300] tracking-widest sm:text-2xl text-sm text-[#CDB59D]">
+                            OUR STORY
+                        </p>
+
+                        <p class="font-[300] tracking-widest lg:text-4xl sm:text-3xl text-lg">
+                            ABOUT US
+                        </p>
+
+                        <div class="border-t border-2 border-[#CDB59D] max-w-[80%] my-2 w-full  rounded-full"
+                            data-aos="zoom-in" data-aos-duration="3000"></div>
+
+                        <p
+                            class="font-light xl:text-2xl sm:text-lg text-sm text-center max-w-[90%] w-full line-clamp-4 max-lg:line-clamp-3">
+                            Lorem ipsum dolor sit amet consectetur. Elementum et pellentesque habitant id. Id feugiat
+                            eget
+                            bibendum felis eget. Velit aliquam cras non elementum nunc luctus duis vitae sem. Quam
+                            iaculis
+                            velit
+                            commodo aliquam vitae dignissim sit. Sed id adipiscing.
+                        </p>
+
+                        <a href=""
+                            class="my-2 bg-transparent border-2 border-[#CDB59D] p-2 w-40 font-afacadFlux items-center flex justify-center sm:text-2xl text-sm text-center hover:text-white hover:bg-[#CDB59D] transition-all ease-in-out duration-500">
+                            Read more
+                        </a>
                     </div>
                 </div>
-                <div class=""></div>
-            </div></div>
-        </section>
 
+                {{-- GALLERY --}}
+                <div class="sm:mt-16 mt-8">
+
+                    <div class="flex flex-col justify-center items-center sm:gap-y-6 gap-y-2 w-full" data-aos="zoom-in"
+                        data-aos-duration="3000">
+                        <div class="max-w-44">
+                            <img src="/images/logo/Mask group.png" alt="" class="w-full h-auto">
+                        </div>
+
+                        <p class="font-[300] tracking-widest sm:text-2xl text-sm text-[#CDB59D]">
+                            GALLERY
+                        </p>
+
+                        <p class="font-[500] tracking-widest lg:text-4xl sm:text-3xl text-lg text-center uppercase">
+                            Some of our photo galleries
+                        </p>
+
+                        <div class="border-t border-2 border-[#CDB59D] max-w-[50%] my-2 w-full  rounded-full"
+                            data-aos="zoom-in" data-aos-duration="3000">
+                        </div>
+                    </div>
+
+                    {{-- img --}}
+                    <div class="max-w-[1536px] m-auto grid  sm:grid-cols-4 grid-cols-2 sm:gap-4 gap-2  my-6">
+                        @for ($i = 0; $i < 8; $i++)
+                            <div class="max-w-full z-50 relative cursor-pointer" data-aos="zoom-in"
+                                data-aos-duration="3000">
+                                <img src="/images/img/image 911.png" alt=""
+                                    class="w-full h-auto rounded-md hover:opacity-70 ">
+                                <div
+                                    class="absolute inset-0 rounded-md bg-gradient-to-b from-[#224e4e] to-[#012020] opacity-0 hover:opacity-70 flex justify-center items-center transition-opacity duration-300">
+                                    <img src="/images/icon/eye.png" alt=""
+                                        class="w-auto h-auto max-w-12 max-h-12 opacity-100">
+                                    VIEW
+                                </div>
+                            </div>
+                        @endfor
+                    </div>
+
+
+
+
+                    {{-- btn --}}
+                    <a href=""data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000"
+                        class="uppercase relative my-2 bg-transparent border-2 border-[#CDB59D] p-2 w-40 m-auto font-afacadFlux items-center flex justify-center sm:text-2xl text-sm text-center hover:text-white hover:bg-[#CDB59D] transition-all ease-in-out duration-500">
+                        View all
+                    </a>
+
+                </div>
+            </div>
+            <section class="relative ">
+                <div class="absolute w-full h-full">
+                    <img src="/images/img/Group 105.png" alt="" class="w-full h-full object-cover">
+                </div>
+
+                <div class="max-w-[1536px] m-auto py-8 px-4 flex flex-col justify-center relative">
+                    <div class="border-t border-4 border-[#CDB59D] my-2 w-full rounded-full z-50" data-aos="zoom-in"
+                        data-aos-duration="3000">
+                    </div>
+
+                    <div class="flex justify-between pt-6 max-md:flex-col">
+                        <div class="w-full" data-aos="fade-right" data-aos-duration="3000">
+                            <p class="text-[#CDB59D] font-[400] tracking-widest sm:text-3xl text-2xl text-left max-w-1/2">
+                                Frequently asked
+                                questions
+                            </p>
+                        </div>
+
+                        <div class="w-full max-md:pt-4" data-aos="fade-left" data-aos-duration="3000">
+
+                            <div class="flex flex-col items-center py-4">
+                                <div class="flex justify-between w-full items-center open_q_detail cursor-pointer">
+                                    <p class="text-[#CDB59D] font-[400] tracking-widest sm:text-2xl text-lg text-left">
+                                        What time is check-in?
+                                    </p>
+
+                                    <div class="w-[30px] h-auto">
+                                        <img src="/images/icon/Vector.png" alt="" class="w-full arrow-icon">
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="transition-all duration-500 ease-in-out max-h-0 opacity-0 overflow-hidden q_detail">
+                                    <p class="font-[300] sm:text-lg text-sm text-left w-full pt-4">
+                                        Lorem ipsum dolor sit amet consectetur. Elementum et pellentesque habitant id. Id
+                                        feugiat eget bibendum felis eget. Velit aliquam cras non elementum nunc luctus duis
+                                        vitae sem.
+                                        Quam iaculis velit commodo aliquam vitae dignissim sit. Sed id adipiscing.
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="border-t border-1 border-[#CDB59D] w-full my-2 rounded-full z-50">
+                            </div>
+
+                            <div class="flex flex-col items-center py-4">
+                                <div class="flex justify-between w-full items-center open_q_detail cursor-pointer">
+                                    <p class="text-[#CDB59D] font-[400] tracking-widest sm:text-2xl text-lg text-left">
+                                        What time is check-out?
+                                    </p>
+
+                                    <div class="w-[30px] h-auto">
+                                        <img src="/images/icon/Vector.png" alt="" class="w-full arrow-icon">
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="transition-all duration-500 ease-in-out max-h-0 opacity-0 overflow-hidden q_detail">
+                                    <p class="font-[300] sm:text-lg text-sm text-left w-full pt-4">
+                                        Lorem ipsum dolor sit amet consectetur. Elementum et pellentesque habitant id. Id
+                                        feugiat eget bibendum felis eget. Velit aliquam cras non elementum nunc luctus duis
+                                        vitae sem.
+                                        Quam iaculis velit commodo aliquam vitae dignissim sit. Sed id adipiscing.
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="border-t border-1 border-[#CDB59D] w-full my-2 rounded-full z-50">
+                            </div>
+
+                            <div class="flex flex-col items-center py-4">
+                                <div class="flex justify-between w-full items-center open_q_detail cursor-pointer">
+                                    <p class="text-[#CDB59D] font-[400] tracking-widest sm:text-2xl text-lg text-left">
+                                        Can i leave my bags?
+                                    </p>
+
+                                    <div class="w-[30px] h-auto">
+                                        <img src="/images/icon/Vector.png" alt="" class="w-full arrow-icon">
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="transition-all duration-500 ease-in-out max-h-0 opacity-0 overflow-hidden q_detail">
+                                    <p class="font-[300] sm:text-lg text-sm text-left w-full pt-4">
+                                        Lorem ipsum dolor sit amet consectetur. Elementum et pellentesque habitant id. Id
+                                        feugiat eget bibendum felis eget. Velit aliquam cras non elementum nunc luctus duis
+                                        vitae sem.
+                                        Quam iaculis velit commodo aliquam vitae dignissim sit. Sed id adipiscing.
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="border-t border-1 border-[#CDB59D] w-full my-2 rounded-full z-50">
+                            </div>
+
+                            <div class="flex flex-col items-center py-4">
+                                <div class="flex justify-between w-full items-center open_q_detail cursor-pointer">
+                                    <p class="text-[#CDB59D] font-[400] tracking-widest sm:text-2xl text-lg text-left">
+                                        Can i bring the kids?
+                                    </p>
+
+                                    <div class="w-[30px] h-auto">
+                                        <img src="/images/icon/Vector.png" alt="" class="w-full arrow-icon">
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="transition-all duration-500 ease-in-out max-h-0 opacity-0 overflow-hidden q_detail">
+                                    <p class="font-[300] sm:text-lg text-sm text-left w-full pt-4">
+                                        Lorem ipsum dolor sit amet consectetur. Elementum et pellentesque habitant id. Id
+                                        feugiat eget bibendum felis eget. Velit aliquam cras non elementum nunc luctus duis
+                                        vitae sem.
+                                        Quam iaculis velit commodo aliquam vitae dignissim sit. Sed id adipiscing.
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="border-t border-1 border-[#CDB59D] w-full my-2 rounded-full z-50">
+                            </div>
+
+                            <div class="flex flex-col items-center py-4">
+                                <div class="flex justify-between w-full items-center open_q_detail cursor-pointer">
+                                    <p class="text-[#CDB59D] font-[400] tracking-widest sm:text-2xl text-lg text-left">
+                                        Can i birng my pets?
+                                    </p>
+
+                                    <div class="w-[30px] h-auto">
+                                        <img src="/images/icon/Vector.png" alt="" class="w-full arrow-icon">
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="transition-all duration-500 ease-in-out max-h-0 opacity-0 overflow-hidden q_detail">
+                                    <p class="font-[300] sm:text-lg text-sm text-left w-full pt-4">
+                                        Lorem ipsum dolor sit amet consectetur. Elementum et pellentesque habitant id. Id
+                                        feugiat eget bibendum felis eget. Velit aliquam cras non elementum nunc luctus duis
+                                        vitae sem.
+                                        Quam iaculis velit commodo aliquam vitae dignissim sit. Sed id adipiscing.
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="border-t border-1 border-[#CDB59D] w-full my-2 rounded-full z-50">
+                            </div>
+
+                            <div class="flex flex-col items-center py-4">
+                                <div class="flex justify-between w-full items-center open_q_detail cursor-pointer">
+                                    <p class="text-[#CDB59D] font-[400] tracking-widest sm:text-2xl text-lg text-left">
+                                        Do you have parking?
+                                    </p>
+
+                                    <div class="w-[30px] h-auto">
+                                        <img src="/images/icon/Vector.png" alt="" class="w-full arrow-icon">
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="transition-all duration-500 ease-in-out max-h-0 opacity-0 overflow-hidden q_detail ">
+                                    <p class="font-[300] sm:text-lg text-sm text-left w-full pt-4">
+                                        Lorem ipsum dolor sit amet consectetur. Elementum et pellentesque habitant id. Id
+                                        feugiat eget bibendum felis eget. Velit aliquam cras non elementum nunc luctus duis
+                                        vitae sem.
+                                        Quam iaculis velit commodo aliquam vitae dignissim sit. Sed id adipiscing.
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="border-t border-1 border-[#CDB59D] w-full my-2 rounded-full z-50">
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+        </section>
     </div>
 @endsection
 
 @section('script')
     @vite('resources/js/home/swiper.js')
+    @vite('resources/js/home/dropdown.js')
 @endsection

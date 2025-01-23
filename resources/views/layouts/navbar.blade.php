@@ -1,7 +1,7 @@
 <nav id="navbar"
     class="fixed w-full z-[99] mx-auto bg-transparent text-white items-center py-2 max-xl:px-2 transition-all duration-100 rounded-b-lg">
     <div class="max-w-[1536px] m-auto flex justify-between gap-2 items-center">
-        <div class="lg:w-1/6 flex justify-start sm:text-xl text-base font-light font-afacadFlux sm:p-2">
+        <div class="lg:w-1/6 flex justify-start sm:text-xl text-base font-light font-afacadFlux sm:p-4">
             <p>LOGO HERE</p>
         </div>
 
@@ -67,20 +67,20 @@
 
         {{-- EN TH --}}
         <div class="w-1/6 flex justify-end  max-lg:hidden relative px-4">
-            <div id="lang-EN" class="w-[130px] rounded-md bg-[rgba(0,0,0,0.1)] p-4 flex flex-col gap-y-2 ">
-                <div class="flex justify-between items-center">
+            <div id="lang-EN" class="w-[130px] rounded-md bg-[rgba(0,0,0,0.1)] p-4 flex flex-col gap-y-2 " >
+                <div class="flex justify-between items-center cursor-pointer"id="open_leng_ENTH">
                     <div class="w-[40px] h-full shadow-md">
                         <img src="/images/icon/united-states 1.png" alt="" class="w-full h-full">
                     </div>
                     <p class=" text-white font-kanit font-[300] xl:text-lg text-sm">EN</p>
-                    <div class="w-[20px] h-full flex justify-center cursor-pointer hover:scale-110" id="open_leng_ENTH">
+                    <div class="w-[20px] h-auto flex justify-center  hover:scale-110" >
                         <img src="/images/icon/ep_arrow-up.png" alt=""
-                            class="w-full h-full transition-transform duration-300 ease-in-out">
+                            class="w-full h-full transition-transform duration-300 ease-in-out" id="arrow-up">
                     </div>
                 </div>
             </div>
             <!-- เมนูภาษา -->
-            <div class="w-[130px] rounded-md bg-slate-100 p-4 absolute top-full right-4 mt-2 hidden z-10 scale-95"
+            <div class="w-[130px] rounded-md bg-slate-100 p-4 absolute top-full right-4 mt-2 hidden z-10 scale-95 transition-transform ease-in-out duration-300"
                 id="leng_ENTH">
                 <div class="flex flex-col justify-end gap-y-2">
                     <div

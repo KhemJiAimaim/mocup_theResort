@@ -1,0 +1,26 @@
+#imageModal {
+    z-index: 9999;
+}
+
+.preview-image .hover-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.preview-image:hover .hover-overlay {
+    opacity: 1;
+}
+
+#imageModal img {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
