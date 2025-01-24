@@ -11,27 +11,49 @@ var swiper = new Swiper(".mySwiper", {
 
 
 
+console.log("preview_img");
 
+// preview_img
 document.addEventListener("DOMContentLoaded", () => {
-    const images = document.querySelectorAll(".preview-image");
-    const modal = document.getElementById("imageModal");
-    const modalImage = document.getElementById("modalImage");
-    const closeModal = document.getElementById("closeModal");
+    const popup = document.getElementById("image-popup");
+    const closePopup = document.getElementById("popup-close");
+    const imageContainers = document.querySelectorAll(".image-container");
 
-    images.forEach(image => {
-        image.addEventListener("click", () => {
-            modalImage.src = image.src;
-            modal.classList.remove("hidden");
+    // Swiper instance
+    let swiper;
+
+    // เปิด Popup เมื่อคลิกรูป
+    imageContainers.forEach((container, index) => {
+        container.addEventListener("click", () => {
+            popup.classList.remove("hidden");
+
+            // เริ่ม Swiper หรืออัปเดตไปยัง slide ที่เลือก
+            if (!swiper) {
+                swiper = new Swiper(".mySwiper_img", {
+                    loop:true,
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                });
+            }
+            swiper.slideTo(index, 0); // เลื่อนไปยังรูปที่เลือก
         });
     });
 
-    closeModal.addEventListener("click", () => {
-        modal.classList.add("hidden");
+    // ปิด Popup
+    closePopup.addEventListener("click", () => {
+        popup.classList.add("hidden");
     });
 
-    modal.addEventListener("click", (e) => {
-        if (e.target === modal) {
-            modal.classList.add("hidden");
+    // ปิด Popup เมื่อคลิกด้านนอก
+    popup.addEventListener("click", (e) => {
+        if (e.target === popup) {
+            popup.classList.add("hidden");
         }
     });
 });

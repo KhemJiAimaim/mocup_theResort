@@ -70,6 +70,10 @@ body {
 }
 
 @media (max-width: 480px) {
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+        font-size: 15px !important; /* ลดขนาดอีกเมื่อหน้าจอเล็กมาก */
+    }
     .swiper-pagination-bullet ,.swiper-pagination-bullet-active {
         display: none;
     }

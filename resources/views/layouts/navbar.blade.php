@@ -1,5 +1,4 @@
-<nav id="navbar"
-    class="fixed w-full z-[99] mx-auto bg-transparent text-white items-center py-2 max-xl:px-2 transition-all duration-100 rounded-b-lg">
+<nav id="navbar"  class="fixed w-full z-[80] mx-auto bg-transparent text-white items-center py-2 max-xl:px-2 transition-all duration-100 rounded-b-lg">
     <div class="max-w-[1536px] m-auto flex justify-between gap-2 items-center">
         <div class="lg:w-1/6 flex justify-start sm:text-xl text-base font-light font-afacadFlux sm:p-4">
             <p>LOGO HERE</p>
@@ -22,41 +21,40 @@
 
         {{-- MENU --}}
         <div class="flex min-w-[50%] mx-auto justify-between xl:text-lg text-sm items-center max-lg:hidden font-kanit font-[300] ">
-            <a href="" class="flex justify-center min-w-[100px]">
-                <div id="text_menu"
-                    class="relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D]  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
+            <a href="/" class="flex justify-center min-w-[100px]">
+                <div id="text_menu" class="{{ request()->is("/") ? 'border-b-2 border-[#CDB59D]' : '' }} relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D]  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]  {{ request()->is("/") ? 'border-b-2 border-[#CDB59D]' : '' }}">
                     HOME
                 </div>
             </a>
-            <a href="" class="flex justify-center min-w-[70px]">
+            <a href="/room" class="{{ request()->is("room") ? 'border-b-2 border-[#CDB59D]' : '' }} flex justify-center min-w-[70px]">
                 <div
                     class="relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D]  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
 
                     ROOM
                 </div>
             </a>
-            <a href="" class="flex justify-center min-w-[70px]">
+            <a href="/service" class="{{ request()->is("service") ? 'border-b-2 border-[#CDB59D]' : '' }} flex justify-center min-w-[70px]">
                 <div
                     class="relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D]  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
 
                     SERVICE
                 </div>
             </a>
-            <a href="" class="flex justify-center min-w-[70px]">
+            <a href="/contact" class="{{ request()->is("contact") ? 'border-b-2 border-[#CDB59D]' : '' }} flex justify-center min-w-[70px]">
                 <div
                     class="relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D]  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
 
                     CONTACT
                 </div>
             </a>
-            <a href="" class="flex justify-center min-w-[70px]">
+            <a href="/galley" class="{{ request()->is("galley") ? 'border-b-2 border-[#CDB59D]' : '' }} flex justify-center min-w-[70px]">
                 <div
                     class="relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D]  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
 
                     GALLERY
                 </div>
             </a>
-            <a href="" class="flex justify-center min-w-[70px]">
+            <a href="/about-us" class="{{ request()->is("about-us") ? 'border-b-2 border-[#CDB59D]' : '' }} flex justify-center min-w-[70px]">
                 <div
                     class="relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D]  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
 
@@ -108,8 +106,8 @@
 
 
 {{-- mobile --}}
-<div class="m-nav inset-0 shadow-md overflow-hidden z-[100] flex justify-end fixed bg-[rgba(7,53,70,0.75)] ">
-    <div class="w-full max-sm:w-[80%] h-full bg-slate-50 p-2 px-4 flex flex-col ">
+<div class="m-nav inset-0 shadow-md overflow-hidden z-[1000] flex justify-end fixed bg-[rgba(7,53,70,0.75)] ">
+    <div class="w-[50%] max-sm:w-[80%] h-full bg-slate-50 p-2 px-4 flex flex-col ">
         <div class="flex justify-end">
             <div class="w-6 h-6 cursor-pointer hover:scale-110 transition-opacity duration-200" id="close-cate">
                 <img src="/images/icon/close-bold-svgrepo-com.png" alt="Close Icon" class="w-full h-full">
@@ -118,14 +116,14 @@
         <div class="flex flex-col gap-y-8 flex-grow">
             {{-- MENU --}}
             <div class="w-full flex justify-start flex-col text-base gap-y-2 font-kanit font-normal">
-                <a href="" class="flex justify-start ">
+                <a href="/" class="{{ request()->is("/") ? 'border-b-2 border-[#CDB59D] ' : '' }} flex justify-start ">
                     <div
                         class="relative text-black  hover:text-black  cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D]  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
                         HOME
                     </div>
                 </a>
                 <hr>
-                <a href="" class="flex justify-start ">
+                <a href="/room" class="{{ request()->is("room") ? 'border-b-2 border-[#CDB59D] ' : '' }} flex justify-start ">
                     <div
                         class="relative text-black  hover:text-black  cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D]  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
 
@@ -133,7 +131,7 @@
                     </div>
                 </a>
                 <hr>
-                <a href="" class="flex justify-start ">
+                <a href="/service" class="{{ request()->is("service") ? 'border-b-2 border-[#CDB59D] ' : '' }} flex justify-start ">
                     <div
                         class="relative text-black  hover:text-black  cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D]  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
 
@@ -141,7 +139,7 @@
                     </div>
                 </a>
                 <hr>
-                <a href="" class="flex justify-start ">
+                <a href="/contact" class="{{ request()->is("contact") ? 'border-b-2 border-[#CDB59D] ' : '' }} flex justify-start ">
                     <div
                         class="relative text-black  hover:text-black  cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D]  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
 
@@ -149,7 +147,7 @@
                     </div>
                 </a>
                 <hr>
-                <a href="" class="flex justify-start ">
+                <a href="/galley" class="{{ request()->is("galley") ? 'border-b-2 border-[#CDB59D] ' : '' }} flex justify-start ">
                     <div
                         class="relative text-black  hover:text-black  cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D]  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
 
@@ -157,7 +155,7 @@
                     </div>
                 </a>
                 <hr>
-                <a href="" class="flex justify-start ">
+                <a href="/about-us" class="{{ request()->is("about-us") ? 'border-b-2 border-[#CDB59D] ' : '' }} flex justify-start ">
                     <div
                         class="relative text-black  hover:text-black  cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D]  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
 

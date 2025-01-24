@@ -8,22 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     @vite('resources/css/home/swiper.css')
+    @vite('resources/css/home/preview_img.css')
 @endsection
-
-{{-- 
-@section('textbanner')
-    fffdfsdsdf
-@endsection --}}
-
-@section('banner')
-    {{-- <img src="/images/banner/Group 1.png" alt="Banner Image" class="w-full h-full absolute object-cover z-40"> --}}
-@endsection
-
 
 @section('contents')
     @include('pages.home.swiper')
     <div class="text-2xl font-kanit">
-
         <section class="max-w-[1536px] m-auto py-8 p-4 ">
             <div class="flex flex-col sm:gap-y-16 gap-y-8">
                 <div class="flex flex-col justify-center items-center sm:gap-y-6 gap-y-2" data-aos="zoom-in"
@@ -39,7 +29,7 @@
                     <div class="border-t border-2 border-[#CDB59D] max-w-[50%] my-2 w-full rounded-full" data-aos="zoom-in"
                         data-aos-duration="3000"></div>
 
-                    <p class="font-light xl:text-2xl sm:text-lg text-sm text-center max-w-[90%] w-full">
+                    <p class="font-light xl:text-2xl sm:text-lg text-sm text-center max-w-[80%] w-full">
                         Lorem ipsum dolor sit amet consectetur. Elementum et pellentesque habitant id. Id feugiat eget
                         bibendum felis eget. Velit aliquam cras non elementum nunc luctus duis vitae sem. Quam iaculis velit
                         commodo aliquam vitae dignissim sit. Sed id adipiscing.
@@ -176,7 +166,7 @@
                 {{-- img --}}
                 <div class="grid place-items-center sm:grid-cols-4 grid-cols-2 sm:gap-3 gap-4">
 
-                    <div class="flex flex-col justify-center items-center gap-4" data-aos="zoom-in-up"
+                    <a href="/service" class="flex flex-col justify-center items-center gap-4" data-aos="zoom-in-up"
                         data-aos-duration="3000">
                         <div class="w-[70px] sm:w-[85px] m-auto h-full">
                             <img src="/images/icon/Group 291.png" alt="" class="w-full h-full">
@@ -187,9 +177,9 @@
                         <p class="line-clamp-4 text-center xl:text-2xl sm:text-base text-sm font-extralight h-[90px]">
                             Lorem ipsum dolor sit amet consectetur. Fermentum mauris in ut eget arcu faucibus cras sit.
                         </p>
-                    </div>
+                    </a>
 
-                    <div class="flex flex-col justify-center items-center gap-4" data-aos="zoom-in-up"
+                    <a href="/service" class="flex flex-col justify-center items-center gap-4" data-aos="zoom-in-up"
                         data-aos-duration="3000">
                         <div class="w-[70px] sm:w-[85px] m-auto h-full">
                             <img src="/images/icon/Group 292.png" alt="" class="w-full h-full">
@@ -200,9 +190,9 @@
                         <p class="line-clamp-4 text-center xl:text-2xl sm:text-base text-sm font-extralight h-[90px]">
                             Lorem ipsum dolor sit amet consectetur. Fermentum mauris in ut eget arcu faucibus cras sit.
                         </p>
-                    </div>
+                    </a>
 
-                    <div class="flex flex-col justify-center items-center gap-4" data-aos="zoom-in-up"
+                    <a href="/service" class="flex flex-col justify-center items-center gap-4" data-aos="zoom-in-up"
                         data-aos-duration="3000">
                         <div class="w-[70px] sm:w-[85px] m-auto h-full">
                             <img src="/images/icon/Group 294.png" alt="" class="w-full h-full">
@@ -213,9 +203,9 @@
                         <p class="line-clamp-4 text-center xl:text-2xl sm:text-base text-sm font-extralight h-[90px]">
                             Lorem ipsum dolor sit amet consectetur. Fermentum mauris in ut eget arcu faucibus cras sit.
                         </p>
-                    </div>
+                    </a>
 
-                    <div class="flex flex-col justify-center items-center gap-4" data-aos="zoom-in-up"
+                    <a href="/service" class="flex flex-col justify-center items-center gap-4" data-aos="zoom-in-up"
                         data-aos-duration="3000">
                         <div class="w-[70px] sm:w-[85px] m-auto h-full">
                             <img src="/images/icon/Group 295.png" alt="" class="w-full h-full">
@@ -226,7 +216,7 @@
                         <p class="line-clamp-4 text-center xl:text-2xl sm:text-base text-sm font-extralight h-[90px]">
                             Lorem ipsum dolor sit amet
                         </p>
-                    </div>
+                    </a>
 
                 </div>
             </div>
@@ -283,8 +273,8 @@
                             commodo aliquam vitae dignissim sit. Sed id adipiscing.
                         </p>
 
-                        <a href=""
-                            class="my-2 bg-transparent border-2 border-[#CDB59D] p-2 w-40 font-afacadFlux items-center flex justify-center sm:text-2xl text-sm text-center hover:text-white hover:bg-[#CDB59D] transition-all ease-in-out duration-500">
+                        <a href="/about-us"
+                            class="my-2 uppercase bg-transparent border-2 border-[#CDB59D] p-2 w-40 font-afacadFlux items-center flex justify-center sm:text-2xl text-sm text-center hover:text-white hover:bg-[#CDB59D] transition-all ease-in-out duration-500">
                             Read more
                         </a>
                     </div>
@@ -313,33 +303,72 @@
                     </div>
 
                     {{-- img --}}
-                    <div class="max-w-[1536px] m-auto grid  sm:grid-cols-4 grid-cols-2 sm:gap-4 gap-2  my-6">
-                        @for ($i = 0; $i < 8; $i++)
-                            <div class="max-w-full z-50 relative cursor-pointer" data-aos="zoom-in"
+                    <div class="max-w-[1536px] m-auto grid sm:grid-cols-4 grid-cols-2 sm:gap-4 gap-2 my-6 image-gallery">
+
+                        @for ($i = 0; $i < 2; $i++)
+                            <div class="max-w-full z-50 relative cursor-pointer image-container" data-aos="zoom-in"
                                 data-aos-duration="3000">
-                                <img src="/images/img/image 911.png" alt=""
-                                    class="w-full h-auto rounded-md hover:opacity-70 ">
+                                <img src="/images/img/786867867.jpg" alt="Image"
+                                    class="w-full h-auto rounded-md hover:opacity-70 gallery-image">
                                 <div
                                     class="absolute inset-0 rounded-md bg-gradient-to-b from-[#224e4e] to-[#012020] opacity-0 hover:opacity-70 flex justify-center items-center transition-opacity duration-300">
-                                    <img src="/images/icon/eye.png" alt=""
-                                        class="w-auto h-auto max-w-12 max-h-12 opacity-100">
+                                    <img src="/images/icon/eye.png" alt="View Icon"
+                                        class="w-auto h-auto max-w-12 max-h-12 opacity-100 view-icon">
+                                    VIEW
+                                </div>
+                            </div>
+
+                            <div class="max-w-full z-50 relative cursor-pointer image-container" data-aos="zoom-in"
+                                data-aos-duration="3000">
+                                <img src="/images/img/123122.jpg" alt="Image"
+                                    class="w-full h-auto rounded-md hover:opacity-70 gallery-image">
+                                <div
+                                    class="absolute inset-0 rounded-md bg-gradient-to-b from-[#224e4e] to-[#012020] opacity-0 hover:opacity-70 flex justify-center items-center transition-opacity duration-300">
+                                    <img src="/images/icon/eye.png" alt="View Icon"
+                                        class="w-auto h-auto max-w-12 max-h-12 opacity-100 view-icon">
+                                    VIEW
+                                </div>
+                            </div>
+
+                            <div class="max-w-full z-50 relative cursor-pointer image-container" data-aos="zoom-in"
+                                data-aos-duration="3000">
+                                <img src="/images/img/546675.jpg" alt="Image"
+                                    class="w-full h-auto rounded-md hover:opacity-70 gallery-image">
+                                <div
+                                    class="absolute inset-0 rounded-md bg-gradient-to-b from-[#224e4e] to-[#012020] opacity-0 hover:opacity-70 flex justify-center items-center transition-opacity duration-300">
+                                    <img src="/images/icon/eye.png" alt="View Icon"
+                                        class="w-auto h-auto max-w-12 max-h-12 opacity-100 view-icon">
+                                    VIEW
+                                </div>
+                            </div>
+
+                            <div class="max-w-full z-50 relative cursor-pointer image-container" data-aos="zoom-in"
+                                data-aos-duration="3000">
+                                <img src="/images/img/12124534.jpg" alt="Image"
+                                    class="w-full h-auto rounded-md hover:opacity-70 gallery-image">
+                                <div
+                                    class="absolute inset-0 rounded-md bg-gradient-to-b from-[#224e4e] to-[#012020] opacity-0 hover:opacity-70 flex justify-center items-center transition-opacity duration-300">
+                                    <img src="/images/icon/eye.png" alt="View Icon"
+                                        class="w-auto h-auto max-w-12 max-h-12 opacity-100 view-icon">
                                     VIEW
                                 </div>
                             </div>
                         @endfor
                     </div>
 
-
-
+                  
 
                     {{-- btn --}}
-                    <a href=""data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000"
-                        class="uppercase relative my-2 bg-transparent border-2 border-[#CDB59D] p-2 w-40 m-auto font-afacadFlux items-center flex justify-center sm:text-2xl text-sm text-center hover:text-white hover:bg-[#CDB59D] transition-all ease-in-out duration-500">
-                        View all
-                    </a>
+                    <div class="" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                        data-aos-duration="2000">
+                        <a href="/galley" class="uppercase relative my-2 bg-transparent border-2 border-[#CDB59D] p-2 w-40 m-auto font-afacadFlux items-center flex justify-center sm:text-2xl text-sm text-center hover:text-white hover:bg-[#CDB59D] transition-all ease-in-out duration-500">
+                            View all
+                        </a>
+                    </div>
 
                 </div>
             </div>
+
             <section class="relative ">
                 <div class="absolute w-full h-full">
                     <img src="/images/img/Group 105.png" alt="" class="w-full h-full object-cover">
@@ -517,6 +546,39 @@
             </section>
 
         </section>
+    </div>
+
+      <!-- Popup GALLERY -->
+      <div id="image-popup" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 hidden z-[100] ">
+        <div class="relative bg-transparent xl:max-w-[800px] sm:max-w-[700px] ss:max-w-[500px] max-w-[380px] max-h-[80%] px-4">
+            <div class="swiper mySwiper_img text-black ">
+                <div class="swiper-wrapper  ">
+                    <!-- ใส่รูปในแต่ละ slide -->
+                    @for ($i = 0; $i < 2; $i++)
+                        <div class="swiper-slide ">
+                            <img src="/images/img/786867867.jpg" alt="Image" class="w-full h-full ">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/images/img/123122.jpg" alt="Image" class="w-full h-auto">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/images/img/546675.jpg" alt="Image" class="w-full h-auto">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/images/img/12124534.jpg" alt="Image" class="w-full h-auto">
+                        </div>
+                    @endfor
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                {{-- <div class="swiper-pagination"></div> --}}
+            </div>
+
+            <div class="flex justify-center items-center cursor-pointer group mt-2" id="popup-close">
+                <p class="border-2 flex justify-center items-center sm:w-10 sm:h-10 w-8 h-8 bg-white rounded-full text-black group-hover:text-red-500 group-hover:border-red-500 transition-all duration-300 ease-in-out">
+                    X</p>
+            </div>
+        </div>
     </div>
 @endsection
 
