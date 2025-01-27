@@ -47,7 +47,7 @@
                     CONTACT
                 </div>
             </a>
-            <a href="/galley" class="{{ request()->is("galley") ? 'border-b-2 border-[#CDB59D]' : '' }} flex justify-center min-w-[70px]">
+            <a href="/gallery" class="{{ request()->is("gallery") ? 'border-b-2 border-[#CDB59D]' : '' }} flex justify-center min-w-[70px]">
                 <div
                     class="relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D]  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
 
@@ -147,7 +147,7 @@
                     </div>
                 </a>
                 <hr>
-                <a href="/galley" class="{{ request()->is("galley") ? 'border-b-2 border-[#CDB59D] ' : '' }} flex justify-start ">
+                <a href="/gallery" class="{{ request()->is("gallery") ? 'border-b-2 border-[#CDB59D] ' : '' }} flex justify-start ">
                     <div
                         class="relative text-black  hover:text-black  cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D]  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
 

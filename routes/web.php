@@ -10,17 +10,17 @@ Route::get('/room', function () {
     return view('/pages/room/room');
 });
 
-// Route::get('/', function () {
-//     return view('/pages/home/home');
-// });
+Route::get('/service', function () {
+    return view('/pages/service_page/service');
+});
 
-// Route::get('/', function () {
-//     return view('/pages/home/home');
-// });
+Route::get('/contact', function () {
+    return view('/pages/contact/contact');
+});
 
-// Route::get('/', function () {
-//     return view('/pages/home/home');
-// });
+Route::get('/gallery', function () {
+    return view('/pages/gallery/gallery');
+});
 
 // Route::get('/', function () {
 //     return view('/pages/home/home');

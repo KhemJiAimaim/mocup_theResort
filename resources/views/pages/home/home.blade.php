@@ -22,7 +22,7 @@
                         <img src="/images/logo/Mask group.png" alt="" class="w-full h-auto">
                     </div>
 
-                    <p class="font-[500] tracking-widest lg:text-3xl sm:text-2xl text-lg uppercase">
+                    <p class="font-[500] tracking-widest lg:text-4xl sm:text-3xl text-lg uppercase">
                         OUR ROOM
                     </p>
 
@@ -39,13 +39,13 @@
                 {{-- img --}}
                 <div class="grid place-items-center sm:grid-cols-4 grid-cols-2 sm:gap-3 gap-4">
 
-                    <div class="group relative xl:w-[320px] xl:h-[450px] w-full lg:h-[350px] h-[300px] cursor-pointer overflow-hidden rounded-sm shadow-md hover:shadow-2xl"
+                    <div class="group relative xl:w-[320px] xl:h-[450px] w-full lg:h-[350px] h-[300px] cursor-pointer overflow-hidden rounded-md shadow-md hover:shadow-2xl"
                         data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
                         <img class="absolute inset-0 h-full w-full object-cover opacity-90 transition-opacity duration-300 ease-out group-hover:opacity-100 group-hover:transition-opacity group-hover:duration-500"
                             src="/images/img/image 3.png" alt="" />
 
                         <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/0 to-transparent to-90% text-white transition-all duration-300 group-hover:bg-gradient-to-t group-hover:from-black/60 group-hover:transition-all group-hover:duration-500">
+                            class="absolute inset-0 bg-gradient-to-t from-black/0 to-transparent to-90% text-white transition-all duration-300 group-hover:bg-black group-hover:bg-opacity-45 group-hover:transition-all group-hover:duration-500">
 
                             <!-- Title -->
                             <p class="text-left xl:text-3xl sm:text-lg text-base w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 uppercase transition-all delay-300 duration-300 ease-out group-hover:top-12 group-hover:translate-y-0 group-hover:duration-300 flex justify-center items-center  "
@@ -55,7 +55,7 @@
 
                             <!-- Description -->
                             <p
-                                class="absolute break-words text-white xl:text-2xl sm:text-base text-sm font-extralight left-4 bottom-12 line-clamp-4 max-w-[90%] pt-4 opacity-0 transition-opacity duration-300 ease-out group-hover:opacity-100 group-hover:delay-500 group-hover:duration-300">
+                                class="absolute break-words text-white xl:text-lg sm:text-base text-sm font-extralight left-4 bottom-12 line-clamp-4 max-w-[90%] pt-4 opacity-0 transition-opacity duration-300 ease-out group-hover:opacity-100 group-hover:delay-500 group-hover:duration-300">
                                 Lorem ipsum dolor sit amet consectetur. Fermentum mauris in ut eget arcu faucibus cras
                                 sit.
                                 Enim vel nisl erat eget amet risus. Eu viverra feugiat est vitae.
@@ -63,13 +63,13 @@
                         </div>
                     </div>
 
-                    <div class="group relative xl:w-[320px] xl:h-[450px] w-full lg:h-[350px] h-[300px] cursor-pointer overflow-hidden rounded-sm shadow-md hover:shadow-2xl"
+                    <div class="group relative xl:w-[320px] xl:h-[450px] w-full lg:h-[350px] h-[300px] cursor-pointer overflow-hidden rounded-md shadow-md hover:shadow-2xl"
                         data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
                         <img class="absolute inset-0 h-full w-full object-cover opacity-90 transition-opacity duration-300 ease-out group-hover:opacity-100 group-hover:transition-opacity group-hover:duration-500"
                             src="/images/img/image 4.png" alt="" />
 
                         <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/0 to-transparent to-90% text-white transition-all duration-300 group-hover:bg-gradient-to-t group-hover:from-black/60 group-hover:transition-all group-hover:duration-500">
+                            class="absolute inset-0 bg-gradient-to-t from-black/0 to-transparent to-90% text-white transition-all duration-300 group-hover:bg-black group-hover:bg-opacity-45 group-hover:transition-all group-hover:duration-500">
 
                             <!-- Title -->
                             <p class="text-left xl:text-3xl sm:text-lg text-base w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 uppercase transition-all delay-300 duration-300 ease-out group-hover:top-12 group-hover:translate-y-0 group-hover:duration-300 flex justify-center items-center  "
@@ -79,7 +79,7 @@
 
                             <!-- Description -->
                             <p
-                                class="absolute break-words text-white xl:text-2xl sm:text-base text-sm font-extralight left-4 bottom-12 line-clamp-4 max-w-[90%] pt-4 opacity-0 transition-opacity duration-300 ease-out group-hover:opacity-100 group-hover:delay-500 group-hover:duration-300">
+                                class="absolute break-words text-white xl:text-lg sm:text-base text-sm font-extralight left-4 bottom-12 line-clamp-4 max-w-[90%] pt-4 opacity-0 transition-opacity duration-300 ease-out group-hover:opacity-100 group-hover:delay-500 group-hover:duration-300">
                                 Lorem ipsum dolor sit amet consectetur. Fermentum mauris in ut eget arcu faucibus cras
                                 sit.
                                 Enim vel nisl erat eget amet risus. Eu viverra feugiat est vitae.
@@ -87,13 +87,13 @@
                         </div>
                     </div>
 
-                    <div class="group relative xl:w-[320px] xl:h-[450px] w-full lg:h-[350px] h-[300px] cursor-pointer overflow-hidden rounded-sm shadow-md hover:shadow-2xl"
+                    <div class="group relative xl:w-[320px] xl:h-[450px] w-full lg:h-[350px] h-[300px] cursor-pointer overflow-hidden rounded-md shadow-md hover:shadow-2xl"
                         data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
                         <img class="absolute inset-0 h-full w-full object-cover opacity-90 transition-opacity duration-300 ease-out group-hover:opacity-100 group-hover:transition-opacity group-hover:duration-500"
                             src="/images/img/image 7.png" alt="" />
 
                         <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/0 to-transparent to-90% text-white transition-all duration-300 group-hover:bg-gradient-to-t group-hover:from-black/60 group-hover:transition-all group-hover:duration-500">
+                            class="absolute inset-0 bg-gradient-to-t from-black/0 to-transparent to-90% text-white transition-all duration-300 group-hover:bg-black group-hover:bg-opacity-45 group-hover:transition-all group-hover:duration-500">
 
                             <!-- Title -->
                             <p class="text-left xl:text-3xl sm:text-lg text-base w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 uppercase transition-all delay-300 duration-300 ease-out group-hover:top-12 group-hover:translate-y-0 group-hover:duration-300 flex justify-center items-center  "
@@ -103,7 +103,7 @@
 
                             <!-- Description -->
                             <p
-                                class="absolute break-words text-white xl:text-2xl sm:text-base text-sm font-extralight left-4 bottom-12 line-clamp-4 max-w-[90%] pt-4 opacity-0 transition-opacity duration-300 ease-out group-hover:opacity-100 group-hover:delay-500 group-hover:duration-300">
+                                class="absolute break-words text-white xl:text-lg sm:text-base text-sm font-extralight left-4 bottom-12 line-clamp-4 max-w-[90%] pt-4 opacity-0 transition-opacity duration-300 ease-out group-hover:opacity-100 group-hover:delay-500 group-hover:duration-300">
                                 Lorem ipsum dolor sit amet consectetur. Fermentum mauris in ut eget arcu faucibus cras
                                 sit.
                                 Enim vel nisl erat eget amet risus. Eu viverra feugiat est vitae.
@@ -111,13 +111,13 @@
                         </div>
                     </div>
 
-                    <div class="group relative xl:w-[320px] xl:h-[450px] w-full lg:h-[350px] h-[300px] cursor-pointer overflow-hidden rounded-sm shadow-md hover:shadow-2xl"
+                    <div class="group relative xl:w-[320px] xl:h-[450px] w-full lg:h-[350px] h-[300px] cursor-pointer overflow-hidden rounded-md shadow-md hover:shadow-2xl"
                         data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
                         <img class="absolute inset-0 h-full w-full object-cover opacity-90 transition-opacity duration-300 ease-out group-hover:opacity-100 group-hover:transition-opacity group-hover:duration-500"
                             src="/images/img/image 8.png" alt="" />
 
                         <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/0 to-transparent to-90% text-white transition-all duration-300 group-hover:bg-gradient-to-t group-hover:from-black/60 group-hover:transition-all group-hover:duration-500">
+                            class="absolute inset-0 bg-gradient-to-t from-black/0 to-transparent to-90% text-white transition-all duration-300 group-hover:bg-black group-hover:bg-opacity-45 group-hover:transition-all group-hover:duration-500">
 
                             <!-- Title -->
                             <p class="text-left xl:text-3xl sm:text-lg text-base w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 uppercase transition-all delay-300 duration-300 ease-out group-hover:top-12 group-hover:translate-y-0 group-hover:duration-300 flex justify-center items-center  "
@@ -127,7 +127,7 @@
 
                             <!-- Description -->
                             <p
-                                class="absolute break-words text-white xl:text-2xl sm:text-base text-sm font-extralight left-4 bottom-12 line-clamp-4 max-w-[90%] pt-4 opacity-0 transition-opacity duration-300 ease-out group-hover:opacity-100 group-hover:delay-500 group-hover:duration-300">
+                                class="absolute break-words text-white xl:text-lg sm:text-base text-sm font-extralight left-4 bottom-12 line-clamp-4 max-w-[90%] pt-4 opacity-0 transition-opacity duration-300 ease-out group-hover:opacity-100 group-hover:delay-500 group-hover:duration-300">
                                 Lorem ipsum dolor sit amet consectetur. Fermentum mauris in ut eget arcu faucibus cras
                                 sit.
                                 Enim vel nisl erat eget amet risus. Eu viverra feugiat est vitae.
@@ -273,7 +273,7 @@
                             commodo aliquam vitae dignissim sit. Sed id adipiscing.
                         </p>
 
-                        <a href="/about-us"
+                        <a href="/about-us" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);"
                             class="my-2 uppercase bg-transparent border-2 border-[#CDB59D] p-2 w-40 font-afacadFlux items-center flex justify-center sm:text-2xl text-sm text-center hover:text-white hover:bg-[#CDB59D] transition-all ease-in-out duration-500">
                             Read more
                         </a>
@@ -293,7 +293,7 @@
                             GALLERY
                         </p>
 
-                        <p class="font-[500] tracking-widest lg:text-4xl sm:text-3xl text-lg text-center uppercase">
+                        <p class="font-[500] tracking-widest lg:text-4xl sm:text-3xl text-lg uppercase">
                             Some of our photo galleries
                         </p>
 
@@ -356,12 +356,11 @@
                         @endfor
                     </div>
 
-                  
-
                     {{-- btn --}}
                     <div class="" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                         data-aos-duration="2000">
-                        <a href="/galley" class="uppercase relative my-2 bg-transparent border-2 border-[#CDB59D] p-2 w-40 m-auto font-afacadFlux items-center flex justify-center sm:text-2xl text-sm text-center hover:text-white hover:bg-[#CDB59D] transition-all ease-in-out duration-500">
+                        <a href="/gallery" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);"
+                            class="uppercase relative my-2 bg-transparent border-2 border-[#CDB59D] p-2 w-40 m-auto font-afacadFlux items-center flex justify-center sm:text-2xl text-sm text-center hover:text-white hover:bg-[#CDB59D] transition-all ease-in-out duration-500">
                             View all
                         </a>
                     </div>
@@ -548,9 +547,10 @@
         </section>
     </div>
 
-      <!-- Popup GALLERY -->
-      <div id="image-popup" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 hidden z-[100] ">
-        <div class="relative bg-transparent xl:max-w-[800px] sm:max-w-[700px] ss:max-w-[500px] max-w-[380px] max-h-[80%] px-4">
+    <!-- Popup GALLERY -->
+    <div id="image-popup" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 hidden z-[100] ">
+        <div
+            class="relative bg-transparent xl:max-w-[800px] sm:max-w-[700px] ss:max-w-[500px] max-w-[380px] max-h-[80%] px-4">
             <div class="swiper mySwiper_img text-black ">
                 <div class="swiper-wrapper  ">
                     <!-- ใส่รูปในแต่ละ slide -->
@@ -571,11 +571,11 @@
                 </div>
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
-                {{-- <div class="swiper-pagination"></div> --}}
             </div>
 
             <div class="flex justify-center items-center cursor-pointer group mt-2" id="popup-close">
-                <p class="border-2 flex justify-center items-center sm:w-10 sm:h-10 w-8 h-8 bg-white rounded-full text-black group-hover:text-red-500 group-hover:border-red-500 transition-all duration-300 ease-in-out">
+                <p
+                    class="border-2 flex justify-center items-center sm:w-10 sm:h-10 w-8 h-8 bg-white rounded-full text-black group-hover:text-red-500 group-hover:border-red-500 transition-all duration-300 ease-in-out">
                     X</p>
             </div>
         </div>
