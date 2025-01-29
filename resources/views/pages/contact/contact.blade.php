@@ -23,18 +23,18 @@
             </p>
         </div>
 
-        <div class="relative w-full xl:h-[600px] ss:h-[350px] h-[250px] ">
+        <div class="relative w-full h-[600px] max-2xl:h-[500px] max-lg:h-[350px] max-md:h-[250px]">
             <img src="/images/banner/dfsfddsgfg.png" alt="Banner Image" class="w-full h-full object-cover">
             <div class="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
         </div>
     </section>
 
-    <section class="max-w-[1320px] m-auto py-12 px-4">
+    <section class="max-w-[1320px] m-auto py-12 px-4 overflow-hidden">
         <div class="bg-white rounded-2xl 2xl:p-16 md:p-12 p-4 flex justify-between max-lg:flex-col gap-6">
             {{-- 1 --}}
             <div class="flex flex-col justify-center w-full gap-4 " data-aos="fade-right" data-aos-duration="3000">
-                <div class="flex flex-col justify-center max-lg:items-center">
-                    <p class="text-[#0F1D20] font-[600] md:text-4xl ss:text-2xl text-xl ">CONTACT INFORMATION</p>
+                <div class="flex flex-col justify-center items-start max-lg:items-center gap-2">
+                    <p class="text-[#0F1D20] font-[600] md:text-4xl ss:text-3xl text-2xl ">CONTACT INFORMATION</p>
                     <p class="text-[#0F1D20] font-afacadFlux sm:text-lg text-base">Lorem ipsum dolor sit amet consectetur.
                         Facilisis vel
                         pellentesque pretium fringilla venenatis sed. Maecenas id urna curabitur consequat. Dictumst nisl
@@ -45,7 +45,7 @@
 
                 <div class="flex flex-col justify-center pt-2 gap-4">
                     <div class="flex gap-x-6 items-start">
-                        <div class="max-w-16 w-full h-auto">
+                        <div class="ss:max-w-16 max-w-12  w-full h-auto">
                             <img src="images/icon/Group 257.png" alt="" class="w-full h-wull">
                         </div>
                         <div class="flex flex-col font-afacadFlux">
@@ -58,7 +58,7 @@
                     </div>
 
                     <div class="flex gap-x-6 items-start">
-                        <div class="max-w-16 w-full h-auto">
+                        <div class="ss:max-w-16 max-w-12 w-full h-auto">
                             <img src="images/icon/Group 256.png" alt="" class="w-full h-wull">
                         </div>
                         <div class="flex flex-col font-afacadFlux">
@@ -68,7 +68,7 @@
                     </div>
 
                     <div class="flex gap-x-6 items-start">
-                        <div class="max-w-16 w-full h-auto">
+                        <div class="ss:max-w-16 max-w-12 h-auto">
                             <img src="images/icon/Group 255.png" alt="" class="w-full h-wull">
                         </div>
                         <div class="flex flex-col font-afacadFlux">
@@ -111,8 +111,8 @@
             </div>
 
             {{-- 2 --}}
-
-            <div class="w-full flex justify-center items-end max-lg:items-center flex-col max-lg:flex-row max-sm:flex-col px-4 gap-4 image-gallery" data-aos="fade-left" data-aos-duration="3000">
+            <div class="w-full flex justify-center items-end max-lg:items-center flex-col max-lg:flex-row max-sm:flex-col px-4 gap-4 image-gallery"
+                data-aos="fade-left" data-aos-duration="3000">
 
                 <div class="max-w-[450px] w-full h-auto rounded-md z-50 relative cursor-pointer image-container"
                     data-aos="zoom-in" data-aos-duration="3000">
@@ -140,11 +140,15 @@
 
             </div>
 
-
-
-
         </div>
     </section>
+
+    <div class="ss:pb-12 pb-6">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.7658682734395!2d102.83243147514484!3d16.48738888425428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31228ae99b598b43%3A0x56b4538d2ace7037!2z4Lij4Lix4Lia4LiX4Liz4LmA4Lin4LmH4Lia4LmE4LiL4LiV4LmMIOC4guC4reC4meC5geC4geC5iOC4mSBXWU5OU09GVCBTT0xVVElPTiBDTy4sTFRELg!5e0!3m2!1sth!2sth!4v1738038360926!5m2!1sth!2sth"
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 
     <!-- Popup GALLERY -->
     <div id="image-popup" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 hidden z-[100] ">

@@ -23,13 +23,13 @@
             </p>
         </div>
 
-        <div class="relative w-full xl:h-[600px] ss:h-[350px] h-[250px] ">
+        <div class="relative w-full h-[600px] max-2xl:h-[500px] max-lg:h-[350px] max-md:h-[250px]">
             <img src="/images/banner/dddvdsrs.png" alt="Banner Image" class="w-full h-full object-cover">
             <div class="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
         </div>
     </section>
 
-    <section class="relative z-50 pb-12 overflow-hidden">
+    <section class="relative z-50 md:pb-12 overflow-hidden">
         <div class="absolute w-full h-full">
             <img src="/images/img/Group 115.png" alt="" class="w-full h-full object-cover ">
         </div>
@@ -38,7 +38,7 @@
             <div class="flex flex-col justify-center items-center sm:gap-y-8 gap-y-4">
 
                 <p class="font-[700] text-center tracking-widest lg:text-3xl sm:text-2xl text-lg uppercase"
-                    data-aos="zoom-in" data-aos-duration="3000">
+                    data-aos="zoom-in" data-aos-duration="3000" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
                     Enjoy Complete & Best <br>
                     Quality Facilities
                 </p>
@@ -62,12 +62,12 @@
                                     <p class="text-[#CDB59D] font-[700] md:text-3xl ss:text-2xl text-xl">Our</p>
                                     <p class="text-white font-[700] md:text-3xl ss:text-2xl text-xl">Restaurant</p>
                                 </div>
-                                <p class="text-white ss:text-base text-sm "> Lorem ipsum dolor sit amet consectetur. Id
+                                <p class="text-white ss:text-lg text-base font-light "> Lorem ipsum dolor sit amet consectetur. Id
                                     lobortis
                                     elementum in at arcu a placerat vivamus. Platea ultricies tellus nibh nullam
                                     pellentesque vitae aliquet gravida. Ultricies tellus blandit vitae cursus justo
                                     pellentesque amet elementum lorem. Dignissim.</p>
-                                <p class="text-white ss:text-base text-sm"> Lorem ipsum dolor sit amet consectetur. Id
+                                <p class="text-white ss:text-lg text-base font-light"> Lorem ipsum dolor sit amet consectetur. Id
                                     lobortis
                                     elementum in at arcu a placerat vivamus. Platea ultricies tellus nibh nullam
                                     pellentesque vitae aliquet gravida. </p>
@@ -89,12 +89,12 @@
                                     <p class="text-[#CDB59D] font-[700] md:text-3xl ss:text-2xl text-xl">Our</p>
                                     <p class="text-white font-[700] md:text-3xl ss:text-2xl text-xl">Coffe Cafe</p>
                                 </div>
-                                <p class="text-white ss:text-base text-sm "> Lorem ipsum dolor sit amet consectetur. Id
+                                <p class="text-white ss:text-lg text-base font-light"> Lorem ipsum dolor sit amet consectetur. Id
                                     lobortis
                                     elementum in at arcu a placerat vivamus. Platea ultricies tellus nibh nullam
                                     pellentesque vitae aliquet gravida. Ultricies tellus blandit vitae cursus justo
                                     pellentesque amet elementum lorem. Dignissim.</p>
-                                <p class="text-white ss:text-base text-sm"> Lorem ipsum dolor sit amet consectetur. Id
+                                <p class="text-white ss:text-lg text-base font-light"> Lorem ipsum dolor sit amet consectetur. Id
                                     lobortis
                                     elementum in at arcu a placerat vivamus. Platea ultricies tellus nibh nullam
                                     pellentesque vitae aliquet gravida. </p>
@@ -130,12 +130,12 @@
                                     <p class="text-[#CDB59D] font-[700] md:text-3xl ss:text-2xl text-xl">Our</p>
                                     <p class="text-white font-[700] md:text-3xl ss:text-2xl text-xl">Swimming Pool</p>
                                 </div>
-                                <p class="text-white ss:text-base text-sm "> Lorem ipsum dolor sit amet consectetur. Id
+                                <p class="text-white ss:text-lg text-base font-light"> Lorem ipsum dolor sit amet consectetur. Id
                                     lobortis
                                     elementum in at arcu a placerat vivamus. Platea ultricies tellus nibh nullam
                                     pellentesque vitae aliquet gravida. Ultricies tellus blandit vitae cursus justo
                                     pellentesque amet elementum lorem. Dignissim.</p>
-                                <p class="text-white ss:text-base text-sm"> Lorem ipsum dolor sit amet consectetur. Id
+                                <p class="text-white ss:text-lg text-base font-light"> Lorem ipsum dolor sit amet consectetur. Id
                                     lobortis
                                     elementum in at arcu a placerat vivamus. Platea ultricies tellus nibh nullam
                                     pellentesque vitae aliquet gravida. </p>

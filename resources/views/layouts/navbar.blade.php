@@ -1,7 +1,7 @@
-<nav id="navbar"  class="fixed w-full z-[80] mx-auto bg-transparent text-white items-center py-2 max-xl:px-2 transition-all duration-100 rounded-b-lg">
+<nav id="navbar" class="fixed w-full z-[80] mx-auto bg-transparent text-white items-center py-2 max-xl:px-2 transition-all duration-100 rounded-b-lg">
     <div class="max-w-[1536px] m-auto flex justify-between gap-2 items-center">
         <div class="lg:w-1/6 flex justify-start sm:text-xl text-base font-light font-afacadFlux sm:p-4">
-            <p>LOGO HERE</p>
+            <a href="/">LOGO HERE</a>
         </div>
 
         <button data-collapse-toggle="navbar-dropdown" type="button"
@@ -22,39 +22,45 @@
         {{-- MENU --}}
         <div class="flex min-w-[50%] mx-auto justify-between xl:text-lg text-sm items-center max-lg:hidden font-kanit font-[300] ">
             <a href="/" class="flex justify-center min-w-[100px]">
-                <div id="text_menu" class="{{ request()->is("/") ? 'border-b-2 border-[#CDB59D]' : '' }} relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D]  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]  {{ request()->is("/") ? 'border-b-2 border-[#CDB59D]' : '' }}">
+                <div id="text_menu"
+                    class="{{ request()->is('/') ? 'border-b-2 border-[#CDB59D]' : '' }} relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D]  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]  {{ request()->is('/') ? 'border-b-2 border-[#CDB59D]' : '' }}">
                     HOME
                 </div>
             </a>
-            <a href="/room" class="{{ request()->is("room") ? 'border-b-2 border-[#CDB59D]' : '' }} flex justify-center min-w-[70px]">
+            <a href="/room"
+                class="{{ request()->routeIs('room.index') || request()->routeIs('room.detail') ? 'border-b-2 border-[#CDB59D]' : '' }} flex justify-center min-w-[70px]">
                 <div
                     class="relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D]  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
 
                     ROOM
                 </div>
             </a>
-            <a href="/service" class="{{ request()->is("service") ? 'border-b-2 border-[#CDB59D]' : '' }} flex justify-center min-w-[70px]">
+            <a href="/service"
+                class="{{ request()->is('service') ? 'border-b-2 border-[#CDB59D]' : '' }} flex justify-center min-w-[70px]">
                 <div
                     class="relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D]  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
 
                     SERVICE
                 </div>
             </a>
-            <a href="/contact" class="{{ request()->is("contact") ? 'border-b-2 border-[#CDB59D]' : '' }} flex justify-center min-w-[70px]">
+            <a href="/contact"
+                class="{{ request()->is('contact') ? 'border-b-2 border-[#CDB59D]' : '' }} flex justify-center min-w-[70px]">
                 <div
                     class="relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D]  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
 
                     CONTACT
                 </div>
             </a>
-            <a href="/gallery" class="{{ request()->is("gallery") ? 'border-b-2 border-[#CDB59D]' : '' }} flex justify-center min-w-[70px]">
+            <a href="/gallery"
+                class="{{ request()->is('gallery') ? 'border-b-2 border-[#CDB59D]' : '' }} flex justify-center min-w-[70px]">
                 <div
                     class="relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D]  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
 
                     GALLERY
                 </div>
             </a>
-            <a href="/about-us" class="{{ request()->is("about-us") ? 'border-b-2 border-[#CDB59D]' : '' }} flex justify-center min-w-[70px]">
+            <a href="/about-us"
+                class="{{ request()->is('about-us') ? 'border-b-2 border-[#CDB59D]' : '' }} flex justify-center min-w-[70px]">
                 <div
                     class="relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D]  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
 
@@ -65,32 +71,32 @@
 
         {{-- EN TH --}}
         <div class="w-1/6 flex justify-end  max-lg:hidden relative px-4">
-            <div id="lang-EN" class="w-[130px] rounded-md bg-[rgba(0,0,0,0.1)] p-4 flex flex-col gap-y-2 " >
+            <div id="lang-EN" class="w-[130px] rounded-md bg-[rgba(0,0,0,0.1)] p-4 flex flex-col gap-y-2 ">
                 <div class="flex justify-between items-center cursor-pointer"id="open_leng_ENTH">
                     <div class="w-[40px] h-full shadow-md">
                         <img src="/images/icon/united-states 1.png" alt="" class="w-full h-full">
                     </div>
                     <p class=" text-white font-kanit font-[300] xl:text-lg text-sm">EN</p>
-                    <div class="w-[20px] h-auto flex justify-center  hover:scale-110" >
+                    <div class="w-[20px] h-auto flex justify-center  hover:scale-110">
                         <img src="/images/icon/ep_arrow-up.png" alt=""
                             class="w-full h-full transition-transform duration-300 ease-in-out" id="arrow-up">
                     </div>
                 </div>
             </div>
             <!-- เมนูภาษา -->
-            <div class="w-[130px] rounded-md bg-slate-100 p-4 absolute top-full right-4 mt-2 hidden z-10 scale-95 transition-transform ease-in-out duration-300"
+            <div class="w-[130px] rounded-md bg-slate-100 p-3 absolute top-full right-4 mt-2 hidden z-10 scale-95 transition-transform ease-in-out duration-300"
                 id="leng_ENTH">
                 <div class="flex flex-col justify-end gap-y-2">
                     <div
-                        class="flex justify-start items-center gap-2 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D] before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:-bottom-2 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:-bottom-2 after:right-[50%]">
+                        class="bg-black bg-opacity-20 p-2 rounded-md flex justify-start items-center gap-2 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D] before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:-bottom-2 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:-bottom-2 after:right-[50%]">
                         <div class="w-[40px] h-full shadow-md">
                             <img src="/images/icon/united-states 1.png" alt="" class="w-full h-full " />
                         </div>
-                        <p class=" text-black font-kanit font-[400] xl:text-lg text-sm">EN</p>
+                        <p class=" text-white font-kanit font-[400] xl:text-lg text-sm">EN</p>
                     </div>
                     <hr />
                     <div
-                        class="flex justify-start items-center gap-2 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D] before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:-bottom-2 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:-bottom-2 after:right-[50%]">
+                        class="bg-black bg-opacity-0 p-2 rounded-md flex justify-start items-center gap-2 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D] before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:-bottom-2 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:-bottom-2 after:right-[50%]">
                         <div class="w-[40px] h-full shadow-md">
                             <img src="/images/icon/cif_th.png" alt="" class="w-full h-full" />
                         </div>
@@ -116,14 +122,16 @@
         <div class="flex flex-col gap-y-8 flex-grow">
             {{-- MENU --}}
             <div class="w-full flex justify-start flex-col text-base gap-y-2 font-kanit font-normal">
-                <a href="/" class="{{ request()->is("/") ? 'border-b-2 border-[#CDB59D] ' : '' }} flex justify-start ">
+                <a href="/"
+                    class="{{ request()->is('/') ? 'border-b-2 border-[#CDB59D] ' : '' }} flex justify-start ">
                     <div
                         class="relative text-black  hover:text-black  cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D]  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
                         HOME
                     </div>
                 </a>
                 <hr>
-                <a href="/room" class="{{ request()->is("room") ? 'border-b-2 border-[#CDB59D] ' : '' }} flex justify-start ">
+                <a href="/room"
+                    class="{{ request()->routeIs('room.index') || request()->routeIs('room.detail') ? 'border-b-2 border-[#CDB59D]' : '' }} flex justify-start ">
                     <div
                         class="relative text-black  hover:text-black  cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D]  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
 
@@ -131,7 +139,8 @@
                     </div>
                 </a>
                 <hr>
-                <a href="/service" class="{{ request()->is("service") ? 'border-b-2 border-[#CDB59D] ' : '' }} flex justify-start ">
+                <a href="/service"
+                    class="{{ request()->is('service') ? 'border-b-2 border-[#CDB59D] ' : '' }} flex justify-start ">
                     <div
                         class="relative text-black  hover:text-black  cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D]  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
 
@@ -139,7 +148,8 @@
                     </div>
                 </a>
                 <hr>
-                <a href="/contact" class="{{ request()->is("contact") ? 'border-b-2 border-[#CDB59D] ' : '' }} flex justify-start ">
+                <a href="/contact"
+                    class="{{ request()->is('contact') ? 'border-b-2 border-[#CDB59D] ' : '' }} flex justify-start ">
                     <div
                         class="relative text-black  hover:text-black  cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D]  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
 
@@ -147,7 +157,8 @@
                     </div>
                 </a>
                 <hr>
-                <a href="/gallery" class="{{ request()->is("gallery") ? 'border-b-2 border-[#CDB59D] ' : '' }} flex justify-start ">
+                <a href="/gallery"
+                    class="{{ request()->is('gallery') ? 'border-b-2 border-[#CDB59D] ' : '' }} flex justify-start ">
                     <div
                         class="relative text-black  hover:text-black  cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D]  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
 
@@ -155,7 +166,8 @@
                     </div>
                 </a>
                 <hr>
-                <a href="/about-us" class="{{ request()->is("about-us") ? 'border-b-2 border-[#CDB59D] ' : '' }} flex justify-start ">
+                <a href="/about-us"
+                    class="{{ request()->is('about-us') ? 'border-b-2 border-[#CDB59D] ' : '' }} flex justify-start ">
                     <div
                         class="relative text-black  hover:text-black  cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D]  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
 
@@ -167,19 +179,21 @@
 
             {{-- EN TH --}}
             <div id="lang-EN" class="w-full  rounded-md bg-[rgba(0,0,0,0.1)] p-2 flex justify-between gap-2">
-                <div class="flex justify-start gap-4 items-center w-full cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D] before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:-bottom-2 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:-bottom-2 after:right-[50%]">
+                <div
+                    class="bg-black bg-opacity-20 p-2 rounded-md flex justify-start gap-4 items-center w-full cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D] before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:-bottom-2 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:-bottom-2 after:right-[50%]">
                     <div class="w-[40px] h-full">
                         <img src="/images/icon/united-states 1.png" alt="" class="w-full h-full">
                     </div>
-                    <p class="text-base text-black font-kanit font-normal">EN</p>
-                    
+                    <p class="text-lg font-kanit font-normal text-white"  style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">EN</p>
+
                 </div>
                 <div class="border-l border-white h-8 mx-2"></div>
-                <div class="flex justify-start gap-4 items-center w-full cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D] before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:-bottom-2 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:-bottom-2 after:right-[50%]">
+                <div
+                    class="bg-black bg-opacity-0 p-2 rounded-md flex justify-start gap-4 items-center w-full cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D] before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:-bottom-2 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:-bottom-2 after:right-[50%]">
                     <div class="w-[40px] h-full">
                         <img src="/images/icon/cif_th.png" alt="" class="w-full h-full">
                     </div>
-                    <p class="text-base text-black font-kanit font-normal">TH</p>
+                    <p class="text-lg text-black font-kanit font-normal">TH</p>
                 </div>
             </div>
 

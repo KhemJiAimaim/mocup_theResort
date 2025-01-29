@@ -49,3 +49,19 @@ body {
     position: fixed;
     z-index: 100;
   }
+
+  /* Responsive: สำหรับหน้าจอที่กว้างน้อยกว่า 768px */
+@media (max-width: 768px) {
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+      font-size: 20px !important; /* ลดขนาดเมื่อหน้าจอเล็ก */
+  }
+}
+
+/* Responsive: สำหรับหน้าจอที่กว้างน้อยกว่า 480px */
+
+@media (max-width: 480px) {
+  .swiper-pagination-bullet ,.swiper-pagination-bullet-active {
+      display: none;
+  }
+}

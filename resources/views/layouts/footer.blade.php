@@ -6,7 +6,7 @@
         </div>
 
         <!-- Content -->
-        <div class="relative max-w-[1536px] m-auto z-10 flex justify-center  text-white py-12">
+        <div class="relative max-w-[1536px] m-auto z-10 flex justify-center  text-white lg:py-12 py-4">
             <div class="sm:grid place-items-center sm:grid-cols-3 flex flex-col w-full items-start ">
 
                 <div class="p-4 flex flex-col justify-start sm:items-start items-center w-full">
@@ -46,7 +46,7 @@
                 <div class="p-4 sm:border-r-2  border-[#CDB59D] grid grid-cols-2 place-items-center w-full items-start h-full">
                     <div class="flex flex-col gap-6 ">
                         <a href="/" class="{{ request()->is("/") ? 'border-b-2 border-[#CDB59D]' : '' }} font-[500] tracking-widest lg:text-xl sm:text-lg text-base uppercase relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D]  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">Home</a>
-                        <a href="/room" class="{{ request()->is("room") ? 'border-b-2 border-[#CDB59D]' : '' }} font-[500] tracking-widest lg:text-xl sm:text-lg text-base uppercase relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D]  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">ROOM</a>
+                        <a href="/room" class="{{ request()->routeIs('room.index') || request()->routeIs('room.detail') ? 'border-b-2 border-[#CDB59D]' : '' }} font-[500] tracking-widest lg:text-xl sm:text-lg text-base uppercase relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D]  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">ROOM</a>
                         <a href="/service" class="{{ request()->is("service") ? 'border-b-2 border-[#CDB59D]' : '' }} font-[500] tracking-widest lg:text-xl sm:text-lg text-base uppercase relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#CDB59D]  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#CDB59D] after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">SERVICE</a>
                     </div>
                     <div class="flex flex-col gap-6 ">
