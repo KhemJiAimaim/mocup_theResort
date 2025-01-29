@@ -14,7 +14,7 @@
 @section('contents')
     @include('pages.home.swiper')
     <div class="text-2xl font-kanit">
-        <section class="max-w-[1536px] m-auto py-8 p-4 ">
+        <section class="max-w-[1536px] m-auto py-8 p-4 overflow-hidden">
             <div class="flex flex-col sm:gap-y-16 gap-y-8">
                 <div class="flex flex-col justify-center items-center sm:gap-y-6 gap-y-2" data-aos="zoom-in"
                     data-aos-duration="3000">
@@ -22,14 +22,14 @@
                         <img src="/images/logo/Mask group.png" alt="" class="w-full h-auto">
                     </div>
 
-                    <p class="font-[500] tracking-widest lg:text-4xl sm:text-3xl text-lg uppercase">
+                    <p class="font-[500] tracking-widest lg:text-4xl sm:text-3xl text-lg uppercase"  style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
                         OUR ROOM
                     </p>
 
                     <div class="border-t border-2 border-[#CDB59D] max-w-[50%] my-2 w-full rounded-full" data-aos="zoom-in"
                         data-aos-duration="3000"></div>
 
-                    <p class="font-light xl:text-2xl sm:text-lg text-sm text-center max-w-[80%] w-full">
+                    <p class="font-light xl:text-xl sm:text-lg text-sm text-center max-w-[80%] w-full">
                         Lorem ipsum dolor sit amet consectetur. Elementum et pellentesque habitant id. Id feugiat eget
                         bibendum felis eget. Velit aliquam cras non elementum nunc luctus duis vitae sem. Quam iaculis velit
                         commodo aliquam vitae dignissim sit. Sed id adipiscing.
@@ -138,7 +138,7 @@
             </div>
         </section>
 
-        <section class="relative z-50">
+        <section class="relative z-50  overflow-hidden">
             <div class="absolute w-full h-full">
                 <img src="/images/img/image 9.png" alt="" class="w-full h-full object-cover">
             </div>
@@ -150,11 +150,11 @@
                         <img src="/images/logo/Mask group.png" alt="" class="w-full h-auto">
                     </div>
 
-                    <p class="font-[300] tracking-widest sm:text-2xl text-sm text-[#CDB59D] uppercase">
+                    <p class="font-[300] tracking-widest sm:text-2xl text-sm text-[#CDB59D] uppercase"  style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
                         OUR SPECIAL
                     </p>
 
-                    <p class="font-[300] tracking-widest lg:text-4xl sm:text-3xl text-lg uppercase">
+                    <p class="font-[300] tracking-widest lg:text-4xl sm:text-3xl text-lg uppercase"  style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
                         SERVICE
                     </p>
 
@@ -174,7 +174,7 @@
                         <p class="xl:text-2xl sm:text-base text-base font-medium uppercase">
                             RESTAURANT
                         </p>
-                        <p class="line-clamp-4 text-center xl:text-2xl sm:text-base text-sm font-extralight h-[90px]">
+                        <p class="line-clamp-4 text-center xl:text-xl sm:text-base text-sm font-extralight h-[90px]">
                             Lorem ipsum dolor sit amet consectetur. Fermentum mauris in ut eget arcu faucibus cras sit.
                         </p>
                     </a>
@@ -187,7 +187,7 @@
                         <p class="xl:text-2xl sm:text-base text-base font-medium uppercase">
                             COFFE CAFE
                         </p>
-                        <p class="line-clamp-4 text-center xl:text-2xl sm:text-base text-sm font-extralight h-[90px]">
+                        <p class="line-clamp-4 text-center xl:text-xl sm:text-base text-sm font-extralight h-[90px]">
                             Lorem ipsum dolor sit amet consectetur. Fermentum mauris in ut eget arcu faucibus cras sit.
                         </p>
                     </a>
@@ -200,7 +200,7 @@
                         <p class="xl:text-2xl sm:text-base text-base font-medium uppercase">
                             SWIMMING POOL
                         </p>
-                        <p class="line-clamp-4 text-center xl:text-2xl sm:text-base text-sm font-extralight h-[90px]">
+                        <p class="line-clamp-4 text-center xl:text-xl sm:text-base text-sm font-extralight h-[90px]">
                             Lorem ipsum dolor sit amet consectetur. Fermentum mauris in ut eget arcu faucibus cras sit.
                         </p>
                     </a>
@@ -213,7 +213,7 @@
                         <p class="xl:text-2xl sm:text-base text-base font-medium uppercase">
                             FREE WIFI
                         </p>
-                        <p class="line-clamp-4 text-center xl:text-2xl sm:text-base text-sm font-extralight h-[90px]">
+                        <p class="line-clamp-4 text-center xl:text-xl sm:text-base text-sm font-extralight h-[90px]">
                             Lorem ipsum dolor sit amet
                         </p>
                     </a>
@@ -222,7 +222,7 @@
             </div>
         </section>
 
-        <section class="relative z-50 pb-12">
+        <section class="relative z-50 pb-12  overflow-hidden">
             <div class="absolute w-full h-full">
                 <img src="/images/img/Group 115.png" alt="" class="w-full h-full object-cover">
             </div>
@@ -252,11 +252,11 @@
                             <img src="/images/icon/45.png" alt="" class="w-full h-auto">
                         </div>
 
-                        <p class="font-[300] tracking-widest sm:text-2xl text-sm text-[#CDB59D]">
+                        <p class="font-[300] tracking-widest sm:text-2xl text-sm text-[#CDB59D]"  style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
                             OUR STORY
                         </p>
 
-                        <p class="font-[300] tracking-widest lg:text-4xl sm:text-3xl text-lg">
+                        <p class="font-[300] tracking-widest lg:text-4xl sm:text-3xl text-lg"  style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
                             ABOUT US
                         </p>
 
@@ -264,7 +264,7 @@
                             data-aos="zoom-in" data-aos-duration="3000"></div>
 
                         <p
-                            class="font-light xl:text-2xl sm:text-lg text-sm text-center max-w-[90%] w-full line-clamp-4 max-lg:line-clamp-3">
+                            class="font-light xl:text-xl sm:text-lg text-sm text-center max-w-[90%] w-full line-clamp-4 max-lg:line-clamp-3">
                             Lorem ipsum dolor sit amet consectetur. Elementum et pellentesque habitant id. Id feugiat
                             eget
                             bibendum felis eget. Velit aliquam cras non elementum nunc luctus duis vitae sem. Quam
@@ -274,7 +274,7 @@
                         </p>
 
                         <a href="/about-us" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);"
-                            class="my-2 uppercase bg-transparent border-2 border-[#CDB59D] p-2 w-40 font-afacadFlux items-center flex justify-center sm:text-2xl text-sm text-center hover:text-white hover:bg-[#CDB59D] transition-all ease-in-out duration-500">
+                            class="my-2 uppercase bg-transparent border-2 border-[#CDB59D] p-2 w-40 font-afacadFlux items-center flex justify-center sm:text-xl text-sm text-center hover:text-white hover:bg-[#CDB59D] transition-all ease-in-out duration-500">
                             Read more
                         </a>
                     </div>
@@ -289,11 +289,11 @@
                             <img src="/images/logo/Mask group.png" alt="" class="w-full h-auto">
                         </div>
 
-                        <p class="font-[300] tracking-widest sm:text-2xl text-sm text-[#CDB59D]">
+                        <p class="font-[300] tracking-widest sm:text-2xl text-sm text-[#CDB59D]" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
                             GALLERY
                         </p>
 
-                        <p class="font-[500] tracking-widest lg:text-4xl sm:text-3xl text-lg uppercase">
+                        <p class="font-[500] tracking-widest lg:text-4xl sm:text-3xl text-lg uppercase"  style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
                             Some of our photo galleries
                         </p>
 
@@ -360,7 +360,7 @@
                     <div class="" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                         data-aos-duration="2000">
                         <a href="/gallery" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);"
-                            class="uppercase relative my-2 bg-transparent border-2 border-[#CDB59D] p-2 w-40 m-auto font-afacadFlux items-center flex justify-center sm:text-2xl text-sm text-center hover:text-white hover:bg-[#CDB59D] transition-all ease-in-out duration-500">
+                            class="uppercase relative my-2 bg-transparent border-2 border-[#CDB59D] p-2 w-40 m-auto font-afacadFlux items-center flex justify-center sm:text-xl text-sm text-center hover:text-white hover:bg-[#CDB59D] transition-all ease-in-out duration-500">
                             View all
                         </a>
                     </div>
@@ -380,7 +380,7 @@
 
                     <div class="flex justify-between pt-6 max-md:flex-col">
                         <div class="w-full" data-aos="fade-right" data-aos-duration="3000">
-                            <p class="text-[#CDB59D] font-[400] tracking-widest sm:text-3xl text-2xl text-left max-w-1/2">
+                            <p class="text-[#CDB59D] font-[400] tracking-widest sm:text-3xl text-2xl text-left max-w-1/2"  style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
                                 Frequently asked
                                 questions
                             </p>

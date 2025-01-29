@@ -57,22 +57,16 @@ body {
 @media (max-width: 768px) {
     .swiper-button-next:after,
     .swiper-button-prev:after {
-        font-size: 30px !important; /* ลดขนาดเมื่อหน้าจอเล็ก */
+        font-size: 20px !important; /* ลดขนาดเมื่อหน้าจอเล็ก */
     }
 }
 
 /* Responsive: สำหรับหน้าจอที่กว้างน้อยกว่า 480px */
-@media (max-width: 480px) {
-    .swiper-button-next:after,
-    .swiper-button-prev:after {
-        font-size: 20px !important; /* ลดขนาดอีกเมื่อหน้าจอเล็กมาก */
-    }
-}
 
 @media (max-width: 480px) {
     .swiper-button-next:after,
     .swiper-button-prev:after {
-        font-size: 15px !important; /* ลดขนาดอีกเมื่อหน้าจอเล็กมาก */
+        font-size: 10px !important; 
     }
     .swiper-pagination-bullet ,.swiper-pagination-bullet-active {
         display: none;

@@ -23,24 +23,23 @@
             </p>
         </div>
 
-        <div class="relative w-full xl:h-[600px] ss:h-[350px] h-[250px] ">
+        <div class="relative w-full h-[600px] max-2xl:h-[500px] max-lg:h-[350px] max-md:h-[250px]">
             <img src="/images/banner/asabfgnhg.png" alt="Banner Image" class="w-full h-full object-cover">
             <div class="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
         </div>
     </section>
 
-    <section class="relative z-50 pb-12">
+    <section class="relative z-50 md:pb-12">
         <div class="absolute w-full h-full">
             <img src="/images/img/Group 115.png" alt="" class="w-full h-full object-cover">
         </div>
 
-
-        <div class="max-w-[1536px] m-auto py-8 p-4">
+        <div class="max-w-[1536px] m-auto p-4">
             {{-- GALLERY --}}
-            <div class="sm:mt-16 mt-8">
+            <div class="sm:mt-16 mt-4">
 
                 <div class="flex flex-col justify-center items-center sm:gap-y-6 gap-y-2 w-full" data-aos="zoom-in"
-                    data-aos-duration="3000">
+                    data-aos-duration="3000" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
                     <div class="max-w-44">
                         <img src="/images/logo/Mask group.png" alt="" class="w-full h-auto">
                     </div>
@@ -58,10 +57,10 @@
                     </div>
                 </div>
 
-                <div class="max-w-[1536px] m-auto grid sm:grid-cols-4 grid-cols-2 sm:gap-4 gap-2 my-6 image-gallery">
+                <div class="max-w-[1536px] m-auto grid sm:grid-cols-4 grid-cols-2 sm:gap-4 gap-2 my-6 image-gallery transition-all ease-in-out duration-500">
 
                     @for ($i = 0; $i < 6; $i++)
-                        <div class="max-w-full z-50 relative cursor-pointer image-container" data-aos="zoom-in"
+                        <div class="max-w-full z-50 relative cursor-pointer image-container transition-all ease-in-out duration-500" data-aos="zoom-in"
                             data-aos-duration="3000">
                             <img src="/images/img/786867867.jpg" alt="Image"
                                 class="w-full h-auto rounded-md hover:opacity-70 gallery-image">
@@ -73,7 +72,7 @@
                             </div>
                         </div>
 
-                        <div class="max-w-full z-50 relative cursor-pointer image-container" data-aos="zoom-in"
+                        <div class="max-w-full z-50 relative cursor-pointer image-container transition-all ease-in-out duration-500" data-aos="zoom-in"
                             data-aos-duration="3000">
                             <img src="/images/img/123122.jpg" alt="Image"
                                 class="w-full h-auto rounded-md hover:opacity-70 gallery-image">
@@ -85,7 +84,7 @@
                             </div>
                         </div>
 
-                        <div class="max-w-full z-50 relative cursor-pointer image-container" data-aos="zoom-in"
+                        <div class="max-w-full z-50 relative cursor-pointer image-container transition-all ease-in-out duration-500" data-aos="zoom-in"
                             data-aos-duration="3000">
                             <img src="/images/img/546675.jpg" alt="Image"
                                 class="w-full h-auto rounded-md hover:opacity-70 gallery-image">
@@ -97,7 +96,7 @@
                             </div>
                         </div>
 
-                        <div class="max-w-full z-50 relative cursor-pointer image-container" data-aos="zoom-in"
+                        <div class="max-w-full z-50 relative cursor-pointer image-container transition-all ease-in-out duration-500" data-aos="zoom-in"
                             data-aos-duration="3000">
                             <img src="/images/img/12124534.jpg" alt="Image"
                                 class="w-full h-auto rounded-md hover:opacity-70 gallery-image">
@@ -114,7 +113,7 @@
                 {{-- btn --}}
                 <div class="text-center hidden" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
                     <button id="toggle-button" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);"
-                        class="uppercase relative my-2 bg-transparent border-2 border-[#CDB59D] p-2 w-40 m-auto font-afacadFlux items-center flex justify-center sm:text-2xl text-sm text-center hover:text-white hover:bg-[#CDB59D] transition-all ease-in-out duration-500">
+                        class="uppercase relative my-2 bg-transparent border-2 border-[#CDB59D] p-2 w-40 m-auto font-afacadFlux items-center flex justify-center sm:text-xl text-sm text-center hover:text-white hover:bg-[#CDB59D] transition-all ease-in-out duration-500">
                         See more
                     </button>
                 </div>
@@ -122,7 +121,6 @@
 
             </div>
         </div>
-
 
     </section>
 

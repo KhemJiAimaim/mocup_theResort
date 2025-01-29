@@ -12,7 +12,7 @@ export default {
                 afacadFlux: ['"Afacad Flux"', "sans-serif"],
                 robotoSerif: ["Roboto Serif", "serif"],
             },
-            screens: { ss: "540px" },
+            screens: { ss: "540px", xxl: "1921px" },
         },
     },
 

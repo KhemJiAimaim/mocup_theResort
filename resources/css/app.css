@@ -68,7 +68,7 @@ body {
   user-select: none;
 }
 .hamRotate.active {
-  transform: rotate(45deg);
+  transform: rotate(180deg);
 }
 .hamRotate180.active {
   transform: rotate(180deg);
@@ -86,24 +86,14 @@ body {
 .ham1 .bottom {
   stroke-dasharray: 40 180;
 }
-.ham1.active .top {
-  stroke-dashoffset: -98px;
-}
-.ham1.active .bottom {
-  stroke-dashoffset: -138px;
-}
+
 .ham2 .top {
   stroke-dasharray: 40 121;
 }
 .ham2 .bottom {
   stroke-dasharray: 40 121;
 }
-.ham2.active .top {
-  stroke-dashoffset: -102px;
-}
-.ham2.active .bottom {
-  stroke-dashoffset: -102px;
-}
+
 .ham3 .top {
   stroke-dasharray: 40 130;
 }
@@ -113,17 +103,7 @@ body {
 .ham3 .bottom {
   stroke-dasharray: 40 205;
 }
-.ham3.active .top {
-  stroke-dasharray: 75 130;
-  stroke-dashoffset: -63px;
-}
-.ham3.active .middle {
-  stroke-dashoffset: -102px;
-}
-.ham3.active .bottom {
-  stroke-dasharray: 110 205;
-  stroke-dashoffset: -86px;
-}
+
 .ham4 .top {
   stroke-dasharray: 40 121;
 }
