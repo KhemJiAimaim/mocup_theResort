@@ -13,9 +13,9 @@
     <section class=" w-full h-auto relative z-50">
         <div
             class="absolute inset-0 z-50  flex flex-col justify-center items-center gap-y-4  max-sm:gap-y-1 max-w-[1536px] m-auto">
-            <p class="text-white text-6xl max-xl:text-3xl  font-bold text-center" data-aos="zoom-in" data-aos-duration="3000">
+            <p class="text-white text-6xl max-xl:text-3xl  font-bold text-center" data-aos="zoom-in" data-aos-duration="500">
             <div class="flex flex-col sm:gap-y-8">
-                <p class="font-kanit xl:text-8xl ss:text-6xl text-4xl uppercase" data-aos="zoom-in" data-aos-duration="3000"
+                <p class="font-kanit xl:text-8xl ss:text-6xl text-4xl uppercase" data-aos="zoom-in" data-aos-duration="500"
                     style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
                     gallery
                 </p>
@@ -29,97 +29,91 @@
         </div>
     </section>
 
-    <section class="relative z-50 md:pb-12">
+    <section class="relative z-50 py-[30px] px-4 max-w-[1536px] mx-auto">
         <div class="absolute w-full h-full">
             <img src="/images/img/Group 115.png" alt="" class="w-full h-full object-cover">
         </div>
 
-        <div class="max-w-[1536px] m-auto p-4">
-            {{-- GALLERY --}}
-            <div class="sm:mt-16 mt-4">
 
-                <div class="flex flex-col justify-center items-center sm:gap-y-6 gap-y-2 w-full" data-aos="zoom-in"
-                    data-aos-duration="3000" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
-                    <div class="max-w-44">
-                        <img src="/images/logo/Mask group.png" alt="" class="w-full h-auto">
-                    </div>
-
-                    <p class="font-[300] tracking-widest sm:text-2xl text-sm text-[#CDB59D]">
-                        GALLERY
-                    </p>
-
-                    <p class="font-[500] tracking-widest lg:text-4xl sm:text-3xl text-lg uppercase">
-                        Some of our photo galleries
-                    </p>
-
-                    <div class="border-t border-2 border-[#CDB59D] max-w-[50%] my-2 w-full  rounded-full" data-aos="zoom-in"
-                        data-aos-duration="3000">
-                    </div>
-                </div>
-
-                <div class="max-w-[1536px] m-auto grid sm:grid-cols-4 grid-cols-2 sm:gap-4 gap-2 my-6 image-gallery transition-all ease-in-out duration-500">
-
-                    @for ($i = 0; $i < 6; $i++)
-                        <div class="max-w-full z-50 relative cursor-pointer image-container transition-all ease-in-out duration-500" data-aos="zoom-in"
-                            data-aos-duration="3000">
-                            <img src="/images/img/786867867.jpg" alt="Image"
-                                class="w-full h-auto rounded-md hover:opacity-70 gallery-image">
-                            <div
-                                class="absolute inset-0 rounded-md bg-gradient-to-b from-[#224e4e] to-[#012020] opacity-0 hover:opacity-70 flex justify-center items-center transition-opacity duration-300">
-                                <img src="/images/icon/eye.png" alt="View Icon"
-                                    class="w-auto h-auto max-w-12 max-h-12 opacity-100 view-icon">
-                                VIEW
-                            </div>
-                        </div>
-
-                        <div class="max-w-full z-50 relative cursor-pointer image-container transition-all ease-in-out duration-500" data-aos="zoom-in"
-                            data-aos-duration="3000">
-                            <img src="/images/img/123122.jpg" alt="Image"
-                                class="w-full h-auto rounded-md hover:opacity-70 gallery-image">
-                            <div
-                                class="absolute inset-0 rounded-md bg-gradient-to-b from-[#224e4e] to-[#012020] opacity-0 hover:opacity-70 flex justify-center items-center transition-opacity duration-300">
-                                <img src="/images/icon/eye.png" alt="View Icon"
-                                    class="w-auto h-auto max-w-12 max-h-12 opacity-100 view-icon">
-                                VIEW
-                            </div>
-                        </div>
-
-                        <div class="max-w-full z-50 relative cursor-pointer image-container transition-all ease-in-out duration-500" data-aos="zoom-in"
-                            data-aos-duration="3000">
-                            <img src="/images/img/546675.jpg" alt="Image"
-                                class="w-full h-auto rounded-md hover:opacity-70 gallery-image">
-                            <div
-                                class="absolute inset-0 rounded-md bg-gradient-to-b from-[#224e4e] to-[#012020] opacity-0 hover:opacity-70 flex justify-center items-center transition-opacity duration-300">
-                                <img src="/images/icon/eye.png" alt="View Icon"
-                                    class="w-auto h-auto max-w-12 max-h-12 opacity-100 view-icon">
-                                VIEW
-                            </div>
-                        </div>
-
-                        <div class="max-w-full z-50 relative cursor-pointer image-container transition-all ease-in-out duration-500" data-aos="zoom-in"
-                            data-aos-duration="3000">
-                            <img src="/images/img/12124534.jpg" alt="Image"
-                                class="w-full h-auto rounded-md hover:opacity-70 gallery-image">
-                            <div
-                                class="absolute inset-0 rounded-md bg-gradient-to-b from-[#224e4e] to-[#012020] opacity-0 hover:opacity-70 flex justify-center items-center transition-opacity duration-300">
-                                <img src="/images/icon/eye.png" alt="View Icon"
-                                    class="w-auto h-auto max-w-12 max-h-12 opacity-100 view-icon">
-                                VIEW
-                            </div>
-                        </div>
-                    @endfor
-                </div>
-
-                {{-- btn --}}
-                <div class="text-center hidden" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
-                    <button id="toggle-button" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);"
-                        class="uppercase relative my-2 bg-transparent border-2 border-[#CDB59D] p-2 w-40 m-auto font-afacadFlux items-center flex justify-center sm:text-xl text-sm text-center hover:text-white hover:bg-[#CDB59D] transition-all ease-in-out duration-500">
-                        See more
-                    </button>
-                </div>
-
-
+        {{-- GALLERY --}}
+        <div class="flex flex-col justify-center items-center sm:gap-y-6 gap-y-2 w-full" data-aos="zoom-in"
+            data-aos-duration="500" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
+            <div class="max-w-44">
+                <img src="/images/logo/Mask group.png" alt="" class="w-full h-auto">
             </div>
+
+            <p class="font-[300] tracking-widest sm:text-2xl text-sm text-[#CDB59D]">
+                GALLERY
+            </p>
+
+            <p class="font-[500] tracking-widest lg:text-4xl sm:text-3xl text-lg uppercase">
+                Some of our photo galleries
+            </p>
+
+            <div class="border-t border-2 border-[#CDB59D] max-w-[50%] my-2 w-full  rounded-full" data-aos="zoom-in"
+                data-aos-duration="500">
+            </div>
+        </div>
+
+        <div class="grid sm:grid-cols-4 grid-cols-2 sm:gap-4 gap-2 image-gallery transition-all ease-in-out duration-300">
+
+            @for ($i = 0; $i < 6; $i++)
+                <div class="max-w-full z-50 relative cursor-pointer image-container transition-all ease-in-out duration-300"
+                    data-aos="zoom-in" data-aos-duration="500">
+                    <img src="/images/img/786867867.jpg" alt="Image"
+                        class="w-full h-auto rounded-md hover:opacity-70 gallery-image">
+                    <div
+                        class="absolute inset-0 rounded-md bg-gradient-to-b from-[#224e4e] to-[#012020] opacity-0 hover:opacity-70 flex justify-center items-center transition-opacity duration-300">
+                        <img src="/images/icon/eye.png" alt="View Icon"
+                            class="w-auto h-auto max-w-12 max-h-12 opacity-100 view-icon">
+                        VIEW
+                    </div>
+                </div>
+
+                <div class="max-w-full z-50 relative cursor-pointer image-container transition-all ease-in-out duration-300"
+                    data-aos="zoom-in" data-aos-duration="500">
+                    <img src="/images/img/123122.jpg" alt="Image"
+                        class="w-full h-auto rounded-md hover:opacity-70 gallery-image">
+                    <div
+                        class="absolute inset-0 rounded-md bg-gradient-to-b from-[#224e4e] to-[#012020] opacity-0 hover:opacity-70 flex justify-center items-center transition-opacity duration-300">
+                        <img src="/images/icon/eye.png" alt="View Icon"
+                            class="w-auto h-auto max-w-12 max-h-12 opacity-100 view-icon">
+                        VIEW
+                    </div>
+                </div>
+
+                <div class="max-w-full z-50 relative cursor-pointer image-container transition-all ease-in-out duration-300"
+                    data-aos="zoom-in" data-aos-duration="500">
+                    <img src="/images/img/546675.jpg" alt="Image"
+                        class="w-full h-auto rounded-md hover:opacity-70 gallery-image">
+                    <div
+                        class="absolute inset-0 rounded-md bg-gradient-to-b from-[#224e4e] to-[#012020] opacity-0 hover:opacity-70 flex justify-center items-center transition-opacity duration-300">
+                        <img src="/images/icon/eye.png" alt="View Icon"
+                            class="w-auto h-auto max-w-12 max-h-12 opacity-100 view-icon">
+                        VIEW
+                    </div>
+                </div>
+
+                <div class="max-w-full z-50 relative cursor-pointer image-container transition-all ease-in-out duration-300"
+                    data-aos="zoom-in" data-aos-duration="500">
+                    <img src="/images/img/12124534.jpg" alt="Image"
+                        class="w-full h-auto rounded-md hover:opacity-70 gallery-image">
+                    <div
+                        class="absolute inset-0 rounded-md bg-gradient-to-b from-[#224e4e] to-[#012020] opacity-0 hover:opacity-70 flex justify-center items-center transition-opacity duration-300">
+                        <img src="/images/icon/eye.png" alt="View Icon"
+                            class="w-auto h-auto max-w-12 max-h-12 opacity-100 view-icon">
+                        VIEW
+                    </div>
+                </div>
+            @endfor
+        </div>
+
+        {{-- btn --}}
+        <div class="text-center hidden pt-4">
+            <button id="toggle-button" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);"
+                class="uppercase relative my-2 bg-transparent border-2 border-[#CDB59D] p-2 w-40 m-auto font-afacadFlux items-center flex justify-center sm:text-xl text-sm text-center hover:text-white hover:bg-[#CDB59D] transition-all ease-in-out duration-300">
+                See more
+            </button>
         </div>
 
     </section>
@@ -151,10 +145,12 @@
                 <div class="swiper-button-prev"></div>
             </div>
 
-            <div class="flex justify-center items-center cursor-pointer group mt-2" id="popup-close">
-                <p
-                    class="border-2 flex justify-center items-center sm:w-10 sm:h-10 w-8 h-8 bg-white rounded-full text-black group-hover:text-red-500 group-hover:border-red-500 transition-all duration-300 ease-in-out">
-                    X</p>
+            <div class="flex absolute justify-end items-end cursor-pointer group right-2 top-2 z-[101]" id="popup-close">
+                <div class="md:w-12 md:h-12 w-8 h-8 cursor-pointer border-2 flex justify-end items-end bg-white rounded-full md:p-2 mx-4
+                     group-hover:border-[#03203E] transition-all duration-300 ease-in-out"
+                    id="close-cate">
+                    <img src="/images/icon/close-bold-svgrepo-com.png" alt="Close Icon" class="w-full h-full">
+                </div>
             </div>
         </div>
     </div>

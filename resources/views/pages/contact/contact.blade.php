@@ -13,9 +13,9 @@
     <section class=" w-full h-auto relative z-50">
         <div
             class="absolute inset-0 z-50  flex flex-col justify-center items-center gap-y-4  max-sm:gap-y-1 max-w-[1536px] m-auto">
-            <p class="text-white text-6xl max-xl:text-3xl  font-bold text-center" data-aos="zoom-in" data-aos-duration="3000">
+            <p class="text-white text-6xl max-xl:text-3xl  font-bold text-center" data-aos="zoom-in" data-aos-duration="500">
             <div class="flex flex-col sm:gap-y-8">
-                <p class="font-kanit xl:text-8xl ss:text-6xl text-4xl uppercase" data-aos="zoom-in" data-aos-duration="3000"
+                <p class="font-kanit xl:text-8xl ss:text-6xl text-4xl uppercase" data-aos="zoom-in" data-aos-duration="500"
                     style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
                     contact
                 </p>
@@ -32,7 +32,7 @@
     <section class="max-w-[1320px] m-auto py-12 px-4 overflow-hidden">
         <div class="bg-white rounded-2xl 2xl:p-16 md:p-12 p-4 flex justify-between max-lg:flex-col gap-6">
             {{-- 1 --}}
-            <div class="flex flex-col justify-center w-full gap-4 " data-aos="fade-right" data-aos-duration="3000">
+            <div class="flex flex-col justify-center w-full gap-4 " data-aos="fade-right" data-aos-duration="500">
                 <div class="flex flex-col justify-center items-start max-lg:items-center gap-2">
                     <p class="text-[#0F1D20] font-[600] md:text-4xl ss:text-3xl text-2xl ">CONTACT INFORMATION</p>
                     <p class="text-[#0F1D20] font-afacadFlux sm:text-lg text-base">Lorem ipsum dolor sit amet consectetur.
@@ -112,10 +112,10 @@
 
             {{-- 2 --}}
             <div class="w-full flex justify-center items-end max-lg:items-center flex-col max-lg:flex-row max-sm:flex-col px-4 gap-4 image-gallery"
-                data-aos="fade-left" data-aos-duration="3000">
+                data-aos="fade-left" data-aos-duration="500">
 
                 <div class="max-w-[450px] w-full h-auto rounded-md z-50 relative cursor-pointer image-container"
-                    data-aos="zoom-in" data-aos-duration="3000">
+                    data-aos="zoom-in" data-aos-duration="500">
                     <img src="/images/img/786867867.jpg" alt="Image"
                         class="w-full h-auto rounded-md hover:opacity-70 gallery-image">
                     <div
@@ -127,7 +127,7 @@
                 </div>
 
                 <div class="max-w-[450px] w-full h-auto rounded-md z-50 relative cursor-pointer image-container"
-                    data-aos="zoom-in" data-aos-duration="3000">
+                    data-aos="zoom-in" data-aos-duration="500">
                     <img src="/images/img/12124534.jpg" alt="Image"
                         class="w-full h-auto rounded-md hover:opacity-70 gallery-image">
                     <div

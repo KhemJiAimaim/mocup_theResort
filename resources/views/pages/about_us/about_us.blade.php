@@ -13,9 +13,9 @@
     <section class=" w-full h-auto relative z-50">
         <div
             class="absolute inset-0 z-50  flex flex-col justify-center items-center gap-y-4  max-sm:gap-y-1 max-w-[1536px] m-auto">
-            <p class="text-white text-6xl max-xl:text-3xl  font-bold text-center" data-aos="zoom-in" data-aos-duration="3000">
+            <p class="text-white text-6xl max-xl:text-3xl  font-bold text-center" data-aos="zoom-in" data-aos-duration="500">
             <div class="flex flex-col sm:gap-y-8">
-                <p class="font-kanit xl:text-8xl ss:text-6xl text-4xl uppercase" data-aos="zoom-in" data-aos-duration="3000"
+                <p class="font-kanit xl:text-8xl ss:text-6xl text-4xl uppercase" data-aos="zoom-in" data-aos-duration="500"
                     style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
                     ABOUT US
                 </p>
@@ -29,37 +29,35 @@
         </div>
     </section>
 
-    <section class="relative z-50 md:pb-12 overflow-hidden">
+    <section class="relative z-50   overflow-hidden">
         <div class="absolute w-full h-full">
             <img src="/images/img/Group 115.png" alt="" class="w-full h-full object-cover">
         </div>
 
 
-        <div class="max-w-[1536px] m-auto p-4 flex flex-col gap-y-8">
-            <div class="sm:mt-16 mt-4">
-                <div class="flex flex-col justify-center items-center sm:gap-y-6 gap-y-2 w-full" data-aos="zoom-in"
-                    data-aos-duration="3000" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
-                    <div class="max-w-44">
-                        <img src="/images/logo/Mask group.png" alt="" class="w-full h-auto">
-                    </div>
+        <div class="max-w-[1536px] px-4 py-[30px] mx-auto flex flex-col gap-y-8" data-aos="fade-up" data-aos-duration="500">
 
-                    <div class="flex justify-center items-end gap-4">
-                        <p class="text-[#CDB59D] font-[500] tracking-widest lg:text-4xl sm:text-3xl text-lg uppercase">ABOUT
-                        </p>
-                        <p class="font-[500] tracking-widest lg:text-4xl sm:text-3xl text-lg uppercase">
-                            THE RESORT
-                        </p>
-                    </div>
+            <div class="flex flex-col justify-center items-center sm:gap-y-6 gap-y-2 w-full"
+                style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
+                <div class="max-w-44">
+                    <img src="/images/logo/Mask group.png" alt="" class="w-full h-auto">
+                </div>
 
-                    <div class="border-t border-2 border-[#CDB59D] max-w-[50%] my-2 w-full  rounded-full" data-aos="zoom-in"
-                        data-aos-duration="3000">
-                    </div>
+                <div class="flex justify-center items-end gap-4">
+                    <p class="text-[#CDB59D] font-[500] tracking-widest lg:text-4xl sm:text-3xl text-lg uppercase">ABOUT
+                    </p>
+                    <p class="font-[500] tracking-widest lg:text-4xl sm:text-3xl text-lg uppercase">
+                        THE RESORT
+                    </p>
+                </div>
+
+                <div class="border-t border-2 border-[#CDB59D] max-w-[50%] my-2 w-full  rounded-full" data-aos="zoom-in"
+                    data-aos-duration="500">
                 </div>
             </div>
 
 
-            <div class="max-w-[1320px] m-auto relative flex flex-col justify-start items-center w-full z-50 gap-6"
-                data-aos="zoom-in" data-aos-duration="3000">
+            <div class="max-w-[1320px] m-auto relative flex flex-col justify-start items-center w-full z-50 gap-6">
                 <p class="indent-12 w-full break-words ss:text-xl text-base font-afacadFlux "> Lorem ipsum dolor sit amet
                     consectetur. Potenti scelerisque aliquet pellentesque volutpat
                     tempor et. Nulla cras sit tempus at porta auctor dictum erat eu. Lectus ullamcorper nec nulla arcu arcu
@@ -71,7 +69,7 @@
                     libero. Tellus lectus id amet commodo consequat neque tincidunt. At porttitor pretium nibh sem
                     vestibulum at magna sed. Sed facilis.
                 </p>
-                <div class="max-w-full h-auto" >
+                <div class="max-w-full h-auto">
                     <img src="/images/img/12124534.jpg" alt="" class="w-full h-full rounded-lg">
                 </div>
 
@@ -107,11 +105,11 @@
 
             <div class="max-w-[1536px] m-auto py-8 px-4 flex flex-col justify-center relative">
                 <div class="border-t border-4 border-[#CDB59D] my-2 w-full rounded-full z-50" data-aos="zoom-in"
-                    data-aos-duration="3000">
+                    data-aos-duration="500">
                 </div>
 
                 <div class="flex justify-between pt-6 max-md:flex-col">
-                    <div class="w-full" data-aos="fade-right" data-aos-duration="3000">
+                    <div class="w-full" data-aos="fade-right" data-aos-duration="500">
                         <p class="text-[#CDB59D] font-[400] tracking-widest sm:text-3xl text-2xl text-left max-w-1/2"
                             style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
                             Frequently asked
@@ -119,7 +117,7 @@
                         </p>
                     </div>
 
-                    <div class="w-full max-md:pt-4" data-aos="fade-left" data-aos-duration="3000">
+                    <div class="w-full max-md:pt-4" data-aos="fade-left" data-aos-duration="500">
 
                         <div class="flex flex-col items-center py-4">
                             <div class="flex justify-between w-full items-center open_q_detail cursor-pointer">
@@ -132,7 +130,7 @@
                                 </div>
                             </div>
 
-                            <div class="transition-all duration-500 ease-in-out max-h-0 opacity-0 overflow-hidden q_detail">
+                            <div class="transition-all duration-300 ease-in-out max-h-0 opacity-0 overflow-hidden q_detail">
                                 <p class="font-[300] sm:text-lg text-sm text-left w-full pt-4">
                                     Lorem ipsum dolor sit amet consectetur. Elementum et pellentesque habitant id. Id
                                     feugiat eget bibendum felis eget. Velit aliquam cras non elementum nunc luctus duis
@@ -156,7 +154,7 @@
                                 </div>
                             </div>
 
-                            <div class="transition-all duration-500 ease-in-out max-h-0 opacity-0 overflow-hidden q_detail">
+                            <div class="transition-all duration-300 ease-in-out max-h-0 opacity-0 overflow-hidden q_detail">
                                 <p class="font-[300] sm:text-lg text-sm text-left w-full pt-4">
                                     Lorem ipsum dolor sit amet consectetur. Elementum et pellentesque habitant id. Id
                                     feugiat eget bibendum felis eget. Velit aliquam cras non elementum nunc luctus duis
@@ -180,7 +178,7 @@
                                 </div>
                             </div>
 
-                            <div class="transition-all duration-500 ease-in-out max-h-0 opacity-0 overflow-hidden q_detail">
+                            <div class="transition-all duration-300 ease-in-out max-h-0 opacity-0 overflow-hidden q_detail">
                                 <p class="font-[300] sm:text-lg text-sm text-left w-full pt-4">
                                     Lorem ipsum dolor sit amet consectetur. Elementum et pellentesque habitant id. Id
                                     feugiat eget bibendum felis eget. Velit aliquam cras non elementum nunc luctus duis
@@ -205,7 +203,7 @@
                             </div>
 
                             <div
-                                class="transition-all duration-500 ease-in-out max-h-0 opacity-0 overflow-hidden q_detail">
+                                class="transition-all duration-300 ease-in-out max-h-0 opacity-0 overflow-hidden q_detail">
                                 <p class="font-[300] sm:text-lg text-sm text-left w-full pt-4">
                                     Lorem ipsum dolor sit amet consectetur. Elementum et pellentesque habitant id. Id
                                     feugiat eget bibendum felis eget. Velit aliquam cras non elementum nunc luctus duis
@@ -230,7 +228,7 @@
                             </div>
 
                             <div
-                                class="transition-all duration-500 ease-in-out max-h-0 opacity-0 overflow-hidden q_detail">
+                                class="transition-all duration-300 ease-in-out max-h-0 opacity-0 overflow-hidden q_detail">
                                 <p class="font-[300] sm:text-lg text-sm text-left w-full pt-4">
                                     Lorem ipsum dolor sit amet consectetur. Elementum et pellentesque habitant id. Id
                                     feugiat eget bibendum felis eget. Velit aliquam cras non elementum nunc luctus duis
@@ -255,7 +253,7 @@
                             </div>
 
                             <div
-                                class="transition-all duration-500 ease-in-out max-h-0 opacity-0 overflow-hidden q_detail ">
+                                class="transition-all duration-300 ease-in-out max-h-0 opacity-0 overflow-hidden q_detail ">
                                 <p class="font-[300] sm:text-lg text-sm text-left w-full pt-4">
                                     Lorem ipsum dolor sit amet consectetur. Elementum et pellentesque habitant id. Id
                                     feugiat eget bibendum felis eget. Velit aliquam cras non elementum nunc luctus duis

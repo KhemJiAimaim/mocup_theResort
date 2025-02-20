@@ -17,7 +17,7 @@
         <section class="max-w-[1536px] m-auto py-8 p-4 overflow-hidden">
             <div class="flex flex-col sm:gap-y-16 gap-y-8">
                 <div class="flex flex-col justify-center items-center sm:gap-y-6 gap-y-2" data-aos="zoom-in"
-                    data-aos-duration="3000">
+                    data-aos-duration="500">
                     <div class="w-44">
                         <img src="/images/logo/Mask group.png" alt="" class="w-full h-auto">
                     </div>
@@ -27,7 +27,7 @@
                     </p>
 
                     <div class="border-t border-2 border-[#CDB59D] max-w-[50%] my-2 w-full rounded-full" data-aos="zoom-in"
-                        data-aos-duration="3000"></div>
+                        data-aos-duration="500"></div>
 
                     <p class="font-light xl:text-xl sm:text-lg text-sm text-center max-w-[80%] w-full">
                         Lorem ipsum dolor sit amet consectetur. Elementum et pellentesque habitant id. Id feugiat eget
@@ -40,12 +40,12 @@
                 <div class="grid place-items-center sm:grid-cols-4 grid-cols-2 sm:gap-3 gap-4">
 
                     <div class="group relative xl:w-[320px] xl:h-[450px] w-full lg:h-[350px] h-[300px] cursor-pointer overflow-hidden rounded-md shadow-md hover:shadow-2xl"
-                        data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
-                        <img class="absolute inset-0 h-full w-full object-cover opacity-90 transition-opacity duration-300 ease-out group-hover:opacity-100 group-hover:transition-opacity group-hover:duration-500"
+                        data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+                        <img class="absolute inset-0 h-full w-full object-cover opacity-90 transition-opacity duration-300 ease-out group-hover:opacity-100 group-hover:transition-opacity group-hover:duration-300"
                             src="/images/img/image 3.png" alt="" />
 
                         <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/0 to-transparent to-90% text-white transition-all duration-300 group-hover:bg-black group-hover:bg-opacity-45 group-hover:transition-all group-hover:duration-500">
+                            class="absolute inset-0 bg-gradient-to-t from-black/0 to-transparent to-90% text-white transition-all duration-300 group-hover:bg-black group-hover:bg-opacity-45 group-hover:transition-all group-hover:duration-300">
 
                             <!-- Title -->
                             <p class="text-left xl:text-3xl sm:text-lg text-base w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 uppercase transition-all delay-300 duration-300 ease-out group-hover:top-12 group-hover:translate-y-0 group-hover:duration-300 flex justify-center items-center  "
@@ -64,12 +64,12 @@
                     </div>
 
                     <div class="group relative xl:w-[320px] xl:h-[450px] w-full lg:h-[350px] h-[300px] cursor-pointer overflow-hidden rounded-md shadow-md hover:shadow-2xl"
-                        data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
-                        <img class="absolute inset-0 h-full w-full object-cover opacity-90 transition-opacity duration-300 ease-out group-hover:opacity-100 group-hover:transition-opacity group-hover:duration-500"
+                        data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+                        <img class="absolute inset-0 h-full w-full object-cover opacity-90 transition-opacity duration-300 ease-out group-hover:opacity-100 group-hover:transition-opacity group-hover:duration-300"
                             src="/images/img/image 4.png" alt="" />
 
                         <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/0 to-transparent to-90% text-white transition-all duration-300 group-hover:bg-black group-hover:bg-opacity-45 group-hover:transition-all group-hover:duration-500">
+                            class="absolute inset-0 bg-gradient-to-t from-black/0 to-transparent to-90% text-white transition-all duration-300 group-hover:bg-black group-hover:bg-opacity-45 group-hover:transition-all group-hover:duration-300">
 
                             <!-- Title -->
                             <p class="text-left xl:text-3xl sm:text-lg text-base w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 uppercase transition-all delay-300 duration-300 ease-out group-hover:top-12 group-hover:translate-y-0 group-hover:duration-300 flex justify-center items-center  "
@@ -88,12 +88,12 @@
                     </div>
 
                     <div class="group relative xl:w-[320px] xl:h-[450px] w-full lg:h-[350px] h-[300px] cursor-pointer overflow-hidden rounded-md shadow-md hover:shadow-2xl"
-                        data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
-                        <img class="absolute inset-0 h-full w-full object-cover opacity-90 transition-opacity duration-300 ease-out group-hover:opacity-100 group-hover:transition-opacity group-hover:duration-500"
+                        data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+                        <img class="absolute inset-0 h-full w-full object-cover opacity-90 transition-opacity duration-300 ease-out group-hover:opacity-100 group-hover:transition-opacity group-hover:duration-300"
                             src="/images/img/image 7.png" alt="" />
 
                         <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/0 to-transparent to-90% text-white transition-all duration-300 group-hover:bg-black group-hover:bg-opacity-45 group-hover:transition-all group-hover:duration-500">
+                            class="absolute inset-0 bg-gradient-to-t from-black/0 to-transparent to-90% text-white transition-all duration-300 group-hover:bg-black group-hover:bg-opacity-45 group-hover:transition-all group-hover:duration-300">
 
                             <!-- Title -->
                             <p class="text-left xl:text-3xl sm:text-lg text-base w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 uppercase transition-all delay-300 duration-300 ease-out group-hover:top-12 group-hover:translate-y-0 group-hover:duration-300 flex justify-center items-center  "
@@ -112,12 +112,12 @@
                     </div>
 
                     <div class="group relative xl:w-[320px] xl:h-[450px] w-full lg:h-[350px] h-[300px] cursor-pointer overflow-hidden rounded-md shadow-md hover:shadow-2xl"
-                        data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
-                        <img class="absolute inset-0 h-full w-full object-cover opacity-90 transition-opacity duration-300 ease-out group-hover:opacity-100 group-hover:transition-opacity group-hover:duration-500"
+                        data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+                        <img class="absolute inset-0 h-full w-full object-cover opacity-90 transition-opacity duration-300 ease-out group-hover:opacity-100 group-hover:transition-opacity group-hover:duration-300"
                             src="/images/img/image 8.png" alt="" />
 
                         <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/0 to-transparent to-90% text-white transition-all duration-300 group-hover:bg-black group-hover:bg-opacity-45 group-hover:transition-all group-hover:duration-500">
+                            class="absolute inset-0 bg-gradient-to-t from-black/0 to-transparent to-90% text-white transition-all duration-300 group-hover:bg-black group-hover:bg-opacity-45 group-hover:transition-all group-hover:duration-300">
 
                             <!-- Title -->
                             <p class="text-left xl:text-3xl sm:text-lg text-base w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 uppercase transition-all delay-300 duration-300 ease-out group-hover:top-12 group-hover:translate-y-0 group-hover:duration-300 flex justify-center items-center  "
@@ -145,7 +145,7 @@
 
             <div class="max-w-[1536px] m-auto flex flex-col sm:gap-y-16 gap-y-8 py-8 px-4">
                 <div class="flex flex-col justify-center items-center sm:gap-y-6 gap-y-2" data-aos="zoom-in"
-                    data-aos-duration="2000">
+                    data-aos-duration="500">
                     <div class="w-44">
                         <img src="/images/logo/Mask group.png" alt="" class="w-full h-auto">
                     </div>
@@ -159,7 +159,7 @@
                     </p>
 
                     <div class="border-t border-2 border-[#CDB59D] max-w-[30%] my-2 w-[80%] rounded-full" data-aos="zoom-in"
-                        data-aos-duration="3000"></div>
+                        data-aos-duration="500"></div>
 
                 </div>
 
@@ -167,7 +167,7 @@
                 <div class="grid place-items-center sm:grid-cols-4 grid-cols-2 sm:gap-3 gap-4">
 
                     <a href="/service" class="flex flex-col justify-center items-center gap-4" data-aos="zoom-in-up"
-                        data-aos-duration="3000">
+                        data-aos-duration="500">
                         <div class="w-[70px] sm:w-[85px] m-auto h-full">
                             <img src="/images/icon/Group 291.png" alt="" class="w-full h-full">
                         </div>
@@ -180,7 +180,7 @@
                     </a>
 
                     <a href="/service" class="flex flex-col justify-center items-center gap-4" data-aos="zoom-in-up"
-                        data-aos-duration="3000">
+                        data-aos-duration="500">
                         <div class="w-[70px] sm:w-[85px] m-auto h-full">
                             <img src="/images/icon/Group 292.png" alt="" class="w-full h-full">
                         </div>
@@ -193,7 +193,7 @@
                     </a>
 
                     <a href="/service" class="flex flex-col justify-center items-center gap-4" data-aos="zoom-in-up"
-                        data-aos-duration="3000">
+                        data-aos-duration="500">
                         <div class="w-[70px] sm:w-[85px] m-auto h-full">
                             <img src="/images/icon/Group 294.png" alt="" class="w-full h-full">
                         </div>
@@ -206,7 +206,7 @@
                     </a>
 
                     <a href="/service" class="flex flex-col justify-center items-center gap-4" data-aos="zoom-in-up"
-                        data-aos-duration="3000">
+                        data-aos-duration="500">
                         <div class="w-[70px] sm:w-[85px] m-auto h-full">
                             <img src="/images/icon/Group 295.png" alt="" class="w-full h-full">
                         </div>
@@ -232,7 +232,7 @@
                 {{-- ABOUT US --}}
                 <div class="flex justify-between items-center max-lg:flex-col gap-4">
                     <div class="w-full z-50 flex justify-start max-lg:order-2">
-                        <div class="max-w-[650px] m-auto h-auto relative" data-aos="fade-right" data-aos-duration="3000">
+                        <div class="max-w-[650px] m-auto h-auto relative" data-aos="fade-right" data-aos-duration="500">
                             <img src="/images/img/image 91.png" alt="" class="w-full h-full rounded-lg ">
 
                             <div
@@ -247,7 +247,7 @@
                     </div>
 
                     <div class="flex flex-col justify-center items-center sm:gap-y-6 gap-y-2 w-full max-lg:order-1"
-                        data-aos="fade-left" data-aos-duration="3000">
+                        data-aos="fade-left" data-aos-duration="500">
                         <div class="max-w-10">
                             <img src="/images/icon/45.png" alt="" class="w-full h-auto">
                         </div>
@@ -261,7 +261,7 @@
                         </p>
 
                         <div class="border-t border-2 border-[#CDB59D] max-w-[80%] my-2 w-full  rounded-full"
-                            data-aos="zoom-in" data-aos-duration="3000"></div>
+                            data-aos="zoom-in" data-aos-duration="500"></div>
 
                         <p
                             class="font-light xl:text-xl sm:text-lg text-sm text-center max-w-[90%] w-full line-clamp-4 max-lg:line-clamp-3">
@@ -274,7 +274,7 @@
                         </p>
 
                         <a href="/about-us" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);"
-                            class="my-2 uppercase bg-transparent border-2 border-[#CDB59D] p-2 w-40 font-afacadFlux items-center flex justify-center sm:text-xl text-sm text-center hover:text-white hover:bg-[#CDB59D] transition-all ease-in-out duration-500">
+                            class="my-2 uppercase bg-transparent border-2 border-[#CDB59D] p-2 w-40 font-afacadFlux items-center flex justify-center sm:text-xl text-sm text-center hover:text-white hover:bg-[#CDB59D] transition-all ease-in-out duration-300">
                             Read more
                         </a>
                     </div>
@@ -284,7 +284,7 @@
                 <div class="sm:mt-16 mt-8">
 
                     <div class="flex flex-col justify-center items-center sm:gap-y-6 gap-y-2 w-full" data-aos="zoom-in"
-                        data-aos-duration="3000">
+                        data-aos-duration="500">
                         <div class="max-w-44">
                             <img src="/images/logo/Mask group.png" alt="" class="w-full h-auto">
                         </div>
@@ -298,7 +298,7 @@
                         </p>
 
                         <div class="border-t border-2 border-[#CDB59D] max-w-[50%] my-2 w-full  rounded-full"
-                            data-aos="zoom-in" data-aos-duration="3000">
+                            data-aos="zoom-in" data-aos-duration="500">
                         </div>
                     </div>
 
@@ -307,7 +307,7 @@
 
                         @for ($i = 0; $i < 2; $i++)
                             <div class="max-w-full z-50 relative cursor-pointer image-container" data-aos="zoom-in"
-                                data-aos-duration="3000">
+                                data-aos-duration="500">
                                 <img src="/images/img/786867867.jpg" alt="Image"
                                     class="w-full h-auto rounded-md hover:opacity-70 gallery-image">
                                 <div
@@ -319,7 +319,7 @@
                             </div>
 
                             <div class="max-w-full z-50 relative cursor-pointer image-container" data-aos="zoom-in"
-                                data-aos-duration="3000">
+                                data-aos-duration="500">
                                 <img src="/images/img/123122.jpg" alt="Image"
                                     class="w-full h-auto rounded-md hover:opacity-70 gallery-image">
                                 <div
@@ -331,7 +331,7 @@
                             </div>
 
                             <div class="max-w-full z-50 relative cursor-pointer image-container" data-aos="zoom-in"
-                                data-aos-duration="3000">
+                                data-aos-duration="500">
                                 <img src="/images/img/546675.jpg" alt="Image"
                                     class="w-full h-auto rounded-md hover:opacity-70 gallery-image">
                                 <div
@@ -343,7 +343,7 @@
                             </div>
 
                             <div class="max-w-full z-50 relative cursor-pointer image-container" data-aos="zoom-in"
-                                data-aos-duration="3000">
+                                data-aos-duration="500">
                                 <img src="/images/img/12124534.jpg" alt="Image"
                                     class="w-full h-auto rounded-md hover:opacity-70 gallery-image">
                                 <div
@@ -358,9 +358,9 @@
 
                     {{-- btn --}}
                     <div class="" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                        data-aos-duration="2000">
+                        data-aos-duration="500">
                         <a href="/gallery" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);"
-                            class="uppercase relative my-2 bg-transparent border-2 border-[#CDB59D] p-2 w-40 m-auto font-afacadFlux items-center flex justify-center sm:text-xl text-sm text-center hover:text-white hover:bg-[#CDB59D] transition-all ease-in-out duration-500">
+                            class="uppercase relative my-2 bg-transparent border-2 border-[#CDB59D] p-2 w-40 m-auto font-afacadFlux items-center flex justify-center sm:text-xl text-sm text-center hover:text-white hover:bg-[#CDB59D] transition-all ease-in-out duration-300">
                             View all
                         </a>
                     </div>
@@ -375,18 +375,18 @@
 
                 <div class="max-w-[1536px] m-auto py-8 px-4 flex flex-col justify-center relative">
                     <div class="border-t border-4 border-[#CDB59D] my-2 w-full rounded-full z-50" data-aos="zoom-in"
-                        data-aos-duration="3000">
+                        data-aos-duration="500">
                     </div>
 
                     <div class="flex justify-between pt-6 max-md:flex-col">
-                        <div class="w-full" data-aos="fade-right" data-aos-duration="3000">
+                        <div class="w-full" data-aos="fade-right" data-aos-duration="500">
                             <p class="text-[#CDB59D] font-[400] tracking-widest sm:text-3xl text-2xl text-left max-w-1/2"  style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
                                 Frequently asked
                                 questions
                             </p>
                         </div>
 
-                        <div class="w-full max-md:pt-4" data-aos="fade-left" data-aos-duration="3000">
+                        <div class="w-full max-md:pt-4" data-aos="fade-left" data-aos-duration="500">
 
                             <div class="flex flex-col items-center py-4">
                                 <div class="flex justify-between w-full items-center open_q_detail cursor-pointer">
@@ -400,7 +400,7 @@
                                 </div>
 
                                 <div
-                                    class="transition-all duration-500 ease-in-out max-h-0 opacity-0 overflow-hidden q_detail">
+                                    class="transition-all duration-300 ease-in-out max-h-0 opacity-0 overflow-hidden q_detail">
                                     <p class="font-[300] sm:text-lg text-sm text-left w-full pt-4">
                                         Lorem ipsum dolor sit amet consectetur. Elementum et pellentesque habitant id. Id
                                         feugiat eget bibendum felis eget. Velit aliquam cras non elementum nunc luctus duis
@@ -425,7 +425,7 @@
                                 </div>
 
                                 <div
-                                    class="transition-all duration-500 ease-in-out max-h-0 opacity-0 overflow-hidden q_detail">
+                                    class="transition-all duration-300 ease-in-out max-h-0 opacity-0 overflow-hidden q_detail">
                                     <p class="font-[300] sm:text-lg text-sm text-left w-full pt-4">
                                         Lorem ipsum dolor sit amet consectetur. Elementum et pellentesque habitant id. Id
                                         feugiat eget bibendum felis eget. Velit aliquam cras non elementum nunc luctus duis
@@ -450,7 +450,7 @@
                                 </div>
 
                                 <div
-                                    class="transition-all duration-500 ease-in-out max-h-0 opacity-0 overflow-hidden q_detail">
+                                    class="transition-all duration-300 ease-in-out max-h-0 opacity-0 overflow-hidden q_detail">
                                     <p class="font-[300] sm:text-lg text-sm text-left w-full pt-4">
                                         Lorem ipsum dolor sit amet consectetur. Elementum et pellentesque habitant id. Id
                                         feugiat eget bibendum felis eget. Velit aliquam cras non elementum nunc luctus duis
@@ -475,7 +475,7 @@
                                 </div>
 
                                 <div
-                                    class="transition-all duration-500 ease-in-out max-h-0 opacity-0 overflow-hidden q_detail">
+                                    class="transition-all duration-300 ease-in-out max-h-0 opacity-0 overflow-hidden q_detail">
                                     <p class="font-[300] sm:text-lg text-sm text-left w-full pt-4">
                                         Lorem ipsum dolor sit amet consectetur. Elementum et pellentesque habitant id. Id
                                         feugiat eget bibendum felis eget. Velit aliquam cras non elementum nunc luctus duis
@@ -500,7 +500,7 @@
                                 </div>
 
                                 <div
-                                    class="transition-all duration-500 ease-in-out max-h-0 opacity-0 overflow-hidden q_detail">
+                                    class="transition-all duration-300 ease-in-out max-h-0 opacity-0 overflow-hidden q_detail">
                                     <p class="font-[300] sm:text-lg text-sm text-left w-full pt-4">
                                         Lorem ipsum dolor sit amet consectetur. Elementum et pellentesque habitant id. Id
                                         feugiat eget bibendum felis eget. Velit aliquam cras non elementum nunc luctus duis
@@ -525,7 +525,7 @@
                                 </div>
 
                                 <div
-                                    class="transition-all duration-500 ease-in-out max-h-0 opacity-0 overflow-hidden q_detail ">
+                                    class="transition-all duration-300 ease-in-out max-h-0 opacity-0 overflow-hidden q_detail ">
                                     <p class="font-[300] sm:text-lg text-sm text-left w-full pt-4">
                                         Lorem ipsum dolor sit amet consectetur. Elementum et pellentesque habitant id. Id
                                         feugiat eget bibendum felis eget. Velit aliquam cras non elementum nunc luctus duis

@@ -25,7 +25,7 @@
         <div class="max-w-[1320px] m-auto pt-12 pb-8 p-4 relative z-50 flex flex-col gap-y-8">
             <div class="flex sm:flex-row flex-col justify-center gap-4 w-full ">
                 <!-- img main -->
-                <div class="basis-2/3" data-aos="fade-right" data-aos-duration="2000">
+                <div class="basis-2/3" data-aos="fade-right" data-aos-duration="500">
                     <div class="relative xl:w-[990px] xl:h-[580px] w-full sm:h-[380px] h-[250px]">
                         <img id="img-main" src="/images/img/123333.png" alt=""
                             class="w-full h-full rounded-lg shadow-md">
@@ -42,7 +42,7 @@
                 </div>
                 <!-- img more -->
                 <div class="lg:basis-sm basis-3xs flex justify-between gap-2 sm:flex-col" data-aos="fade-left"
-                    data-aos-duration="2000">
+                    data-aos-duration="500">
                     <div
                         class="max-w-[320px] xl:h-[180px] sm:h-[120px] max-ss:max-h-[80px] h-auto w-full hover:scale-95 cursor-pointer">
                         <img src="/images/img/123333.png" alt=""
@@ -63,7 +63,7 @@
 
 
             <div class="flex justify-between gap-8 lg:flex-row flex-col xl:p-0 ss:px-4 lg:pl-16 font-afacadFlux ">
-                <div class="w-full flex flex-col gap-4" data-aos="fade-right" data-aos-duration="3000">
+                <div class="w-full flex flex-col gap-4" data-aos="fade-right" data-aos-duration="500">
                     <div class="flex lg:flex-col ss:flex-row flex-col  justify-between gap-4">
                         <p class="text-[#CDB59D] ss:text-3xl text-2xl font-[500]"
                             style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">Double Twin Room</p>
@@ -88,7 +88,7 @@
                 </div>
 
                 <div class="w-full flex lg:flex-col md:flex-row flex-col  max-lg:justify-between ss:gap-8 gap-4 "
-                    data-aos="fade-left" data-aos-duration="3000">
+                    data-aos="fade-left" data-aos-duration="500">
                     {{-- 1 --}}
                     <div class="flex gap-4 flex-col lg:items-start md:items-center items-start">
                         <p class="text-[#CDB59D] ss:text-2xl text-xl">Detail Room</p>
@@ -165,9 +165,9 @@
             </div>
         </div>
 
-        <div class="" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
+        <div class="" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="500">
             <a href="{{ route('room.detail') }}" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);"
-                class="relative bg-transparent border-2 border-[#CDB59D] lg:p-2 p-1 w-40 m-auto font-afacadFlux items-center flex justify-center lg:text-xl text-base text-center hover:text-white hover:bg-[#CDB59D] transition-all ease-in-out duration-500">
+                class="relative bg-transparent border-2 border-[#CDB59D] lg:p-2 p-1 w-40 m-auto font-afacadFlux items-center flex justify-center lg:text-xl text-base text-center hover:text-white hover:bg-[#CDB59D] transition-all ease-in-out duration-300">
                 Book Now
             </a>
         </div>
@@ -179,7 +179,7 @@
 
             <div class="max-w-[1536px] m-auto flex flex-col sm:gap-y-16 gap-y-8 py-8 px-4">
                 <div class="flex flex-col justify-center items-center sm:gap-y-6 gap-y-2" data-aos="zoom-in"
-                    data-aos-duration="2000">
+                    data-aos-duration="500">
                     <div class="w-44">
                         <img src="/images/logo/Mask group.png" alt="" class="w-full h-auto">
                     </div>
@@ -190,7 +190,7 @@
                     </p>
 
                     <div class="border-t border-2 border-[#CDB59D] my-2 max-w-[30%] w-full rounded-full"
-                        data-aos="zoom-in" data-aos-duration="3000"></div>
+                        data-aos="zoom-in" data-aos-duration="500"></div>
 
                     <p class="font-[300] xl:text-xl sm:text-lg text-base text-center max-w-[80%] w-full font-afacadFlux">
                         Lorem ipsum dolor sit amet consectetur. Elementum et pellentesque habitant id. Id feugiat eget
@@ -208,7 +208,7 @@
                     {{-- 1 --}}
                     <div class="swiper-slide">
                         <div class="flex flex-col rounded-lg md:w-[430px] ss:w-[400px] w-[380px] h-full mx-auto px-4 drop-shadow-lg"
-                            data-aos="zoom-in" data-aos-duration="3000">
+                            data-aos="zoom-in" data-aos-duration="500">
                             <div class="relative w-full h-[255px] ">
                                 <img src="/images/img/123333.png" alt="" class="w-full h-full rounded-t-lg">
                                 <div class="absolute bg-[#0B1315] rounded-l-full top-6 right-0 p-1 w-[190px]">
@@ -243,7 +243,7 @@
 
                             <div
                                 class="bg-[#0F1D2099] bg-opacity-30 p-6 rounded-b-lg h-[255px] flex flex-col justify-between items-center font-afacadFlux">
-                                <div class="flex flex-col gap-4" data-aos="zoom-in" data-aos-duration="3000">
+                                <div class="flex flex-col gap-4" data-aos="zoom-in" data-aos-duration="500">
                                     <p class="ss:text-2xl text-xl font-[500] text-left">Delux Room</p>
                                     <p class="ss:text-xl text-base line-clamp-4 text-left">
                                         Lorem ipsum dolor sit amet consectetur. Libero
@@ -255,10 +255,10 @@
 
                                 {{-- btn --}}
                                 <div class="w-full mt-2" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                                    data-aos-duration="2000">
+                                    data-aos-duration="500">
                                     <a href="{{ route('room.detail') }}"
                                         style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);"
-                                        class="relative bg-transparent border-2 border-[#CDB59D] lg:p-2 p-1 font-afacadFlux items-center flex justify-center ss:text-xl text-base text-center hover:text-white hover:bg-[#CDB59D] transition-all ease-in-out duration-500">
+                                        class="relative bg-transparent border-2 border-[#CDB59D] lg:p-2 p-1 font-afacadFlux items-center flex justify-center ss:text-xl text-base text-center hover:text-white hover:bg-[#CDB59D] transition-all ease-in-out duration-300">
                                         Detail
                                     </a>
                                 </div>
@@ -268,7 +268,7 @@
                     {{-- 2 --}}
                     <div class="swiper-slide">
                         <div class="flex flex-col rounded-lg md:w-[430px] ss:w-[400px] w-[380px] h-full mx-auto px-4 drop-shadow-lg"
-                            data-aos="zoom-in" data-aos-duration="3000">
+                            data-aos="zoom-in" data-aos-duration="500">
                             <div class="relative w-full h-[255px] ">
                                 <img src="/images/img/566456565.png" alt="" class="w-full h-full rounded-t-lg">
                                 <div class="absolute bg-[#0B1315] rounded-l-full top-6 right-0 p-1 w-[190px]">
@@ -303,7 +303,7 @@
 
                             <div
                                 class="bg-[#0F1D2099] bg-opacity-30 p-6 rounded-b-lg h-[255px] flex flex-col justify-between items-center font-afacadFlux">
-                                <div class="flex flex-col gap-4" data-aos="zoom-in" data-aos-duration="3000">
+                                <div class="flex flex-col gap-4" data-aos="zoom-in" data-aos-duration="500">
                                     <p class="ss:text-2xl text-xl font-[500] text-left">Sweet Room</p>
                                     <p class="ss:text-xl text-base line-clamp-4 text-left">
                                         Lorem ipsum dolor sit amet consectetur. Libero
@@ -315,10 +315,10 @@
 
                                 {{-- btn --}}
                                 <div class="w-full mt-2" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                                    data-aos-duration="2000">
+                                    data-aos-duration="500">
                                     <a href="{{ route('room.detail') }}"
                                         style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);"
-                                        class="relative bg-transparent border-2 border-[#CDB59D] lg:p-2 p-1 font-afacadFlux items-center flex justify-center ss:text-xl text-base text-center hover:text-white hover:bg-[#CDB59D] transition-all ease-in-out duration-500">
+                                        class="relative bg-transparent border-2 border-[#CDB59D] lg:p-2 p-1 font-afacadFlux items-center flex justify-center ss:text-xl text-base text-center hover:text-white hover:bg-[#CDB59D] transition-all ease-in-out duration-300">
                                         Detail
                                     </a>
                                 </div>
@@ -328,7 +328,7 @@
                     {{-- 3 --}}
                     <div class="swiper-slide">
                         <div class="flex flex-col rounded-lg md:w-[430px] ss:w-[400px] w-[380px] h-full mx-auto px-4 drop-shadow-lg"
-                            data-aos="zoom-in" data-aos-duration="3000">
+                            data-aos="zoom-in" data-aos-duration="500">
                             <div class="relative w-full h-[255px] ">
                                 <img src="/images/img/456456.png" alt="" class="w-full h-full rounded-t-lg">
                                 <div class="absolute bg-[#0B1315] rounded-l-full top-6 right-0 p-1 w-[190px]">
@@ -363,7 +363,7 @@
 
                             <div
                                 class="bg-[#0F1D2099] bg-opacity-30 p-6 rounded-b-lg h-[255px] flex flex-col justify-between items-center font-afacadFlux">
-                                <div class="flex flex-col gap-4" data-aos="zoom-in" data-aos-duration="3000">
+                                <div class="flex flex-col gap-4" data-aos="zoom-in" data-aos-duration="500">
                                     <p class="ss:text-2xl text-xl font-[500] text-left">Family Room</p>
                                     <p class="ss:text-xl text-base line-clamp-4 text-left">
                                         Lorem ipsum dolor sit amet consectetur. Libero
@@ -375,10 +375,10 @@
 
                                 {{-- btn --}}
                                 <div class="w-full mt-2" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                                    data-aos-duration="2000">
+                                    data-aos-duration="500">
                                     <a href="{{ route('room.detail') }}"
                                         style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);"
-                                        class="relative bg-transparent border-2 border-[#CDB59D] lg:p-2 p-1 font-afacadFlux items-center flex justify-center ss:text-xl text-base text-center hover:text-white hover:bg-[#CDB59D] transition-all ease-in-out duration-500">
+                                        class="relative bg-transparent border-2 border-[#CDB59D] lg:p-2 p-1 font-afacadFlux items-center flex justify-center ss:text-xl text-base text-center hover:text-white hover:bg-[#CDB59D] transition-all ease-in-out duration-300">
                                         Detail
                                     </a>
                                 </div>
