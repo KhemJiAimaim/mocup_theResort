@@ -41,7 +41,11 @@
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5/dist/fancybox.umd.js"></script>
 
     <script>
-        AOS.init();
+         AOS.init({
+            disable: window.innerWidth < 768, // ปิดใช้งาน AOS บนหน้าจอมือถือ
+            offset: 0,
+            once: true,
+        });
     </script>
 </body>
 
