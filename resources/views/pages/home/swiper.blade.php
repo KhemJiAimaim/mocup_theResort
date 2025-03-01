@@ -4,8 +4,7 @@
             <div
                 class="absolute inset-0 z-50 flex flex-col justify-center items-center gap-y-4  max-sm:gap-y-1 max-w-[1536px] m-auto">
                 <p class="text-white text-6xl max-xl:text-3xl  font-bold text-center">
-                <div class="flex flex-col sm:gap-y-8"data-aos="zoom-in"
-                    data-aos-duration="500">
+                <div class="flex flex-col sm:gap-y-8 animate__animated animate__fadeInUp" >
                     <p class="font-light font-afacadFlux sm:text-3xl text-base text-[#CDB59D] tracking-widest">WELCOME TO
                     </p>
                     <h1 class="font-robotoSerif xl:text-8xl md:text-6xl text-3xl uppercase" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">THE RESORT</h1>
@@ -27,8 +26,7 @@
             <div
                 class="absolute inset-0 z-50 flex flex-col justify-center items-center gap-y-4  max-sm:gap-y-1 max-w-[1536px] m-auto ">
                 <p class="text-white text-6xl max-xl:text-3xl  font-bold text-center">
-                <div class="flex flex-col sm:gap-y-8" data-aos="zoom-in"
-                    data-aos-duration="500">
+                <div class="flex flex-col sm:gap-y-8 animate__animated animate__fadeIn" >
                     <p class="font-light font-afacadFlux sm:text-3xl text-base text-[#CDB59D] tracking-widest">WELCOME TO
                     </p>
                     <h1 class="font-robotoSerif xl:text-8xl md:text-6xl text-3xl uppercase" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">wynnsoft RESORT

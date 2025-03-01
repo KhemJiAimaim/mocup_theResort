@@ -36,8 +36,7 @@
 
         <div class="max-w-[1536px] m-auto">
             <div class="flex flex-col sm:gap-y-16 gap-y-8">
-                <div class="flex flex-col justify-center items-center sm:gap-y-6 gap-y-2" data-aos="zoom-in"
-                    data-aos-duration="500"  >
+                <div class="flex flex-col justify-center items-center sm:gap-y-6 gap-y-2 animate__animated animate__zoomIn">
                     <div class="w-44">
                         <img src="/images/logo/Mask group.png" alt="" class="w-full h-auto">
                     </div>

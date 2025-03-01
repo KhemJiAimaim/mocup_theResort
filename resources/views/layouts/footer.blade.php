@@ -1,5 +1,5 @@
 <footer class="uppercase font-afacadFlux">
-    <div class="relative">
+    <div class="relative z-[99]">
         <div class="absolute w-full h-full">
             <img src="/images/banner/Group 1.png" alt="Background Image" class="w-full h-full object-cover">
             <div class="absolute top-0 left-0 w-full h-full bg-black opacity-25"></div>

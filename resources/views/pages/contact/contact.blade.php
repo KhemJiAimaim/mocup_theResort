@@ -13,14 +13,14 @@
     <section class=" w-full h-auto relative z-50">
         <div
             class="absolute inset-0 z-50  flex flex-col justify-center items-center gap-y-4  max-sm:gap-y-1 max-w-[1536px] m-auto">
-            <p class="text-white text-6xl max-xl:text-3xl  font-bold text-center" data-aos="zoom-in" data-aos-duration="500">
+            <div class="text-white text-6xl max-xl:text-3xl font-bold text-center animate__animated animate__fadeInUp">
             <div class="flex flex-col sm:gap-y-8">
-                <p class="font-kanit xl:text-8xl ss:text-6xl text-4xl uppercase" data-aos="zoom-in" data-aos-duration="500"
+                <p class="font-kanit xl:text-8xl ss:text-6xl text-4xl uppercase"
                     style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
                     contact
                 </p>
             </div>
-            </p>
+            </div>
         </div>
 
         <div class="relative w-full h-[600px] max-2xl:h-[500px] max-lg:h-[350px] max-md:h-[250px]">
@@ -29,7 +29,7 @@
         </div>
     </section>
 
-    <section class="max-w-[1320px] m-auto py-12 px-4 overflow-hidden">
+    <section class="max-w-[1320px] m-auto py-12 px-4 overflow-hidden animate__animated animate__fadeInUp">
         <div class="bg-white rounded-2xl 2xl:p-16 md:p-12 p-4 flex justify-between max-lg:flex-col gap-6">
             {{-- 1 --}}
             <div class="flex flex-col justify-center w-full gap-4 " data-aos="fade-right" data-aos-duration="500">

@@ -17,7 +17,7 @@
         </div>
     </section>
 
-    <section class="relative z-50 md:pb-20 pb-10 overflow-hidden">
+    <section class="relative z-50 md:pb-20 pb-10 overflow-hidden animate__animated animate__fadeInUp">
         <div class="absolute w-full h-full">
             <img src="/images/img/Group 115.png" alt="" class="w-full h-full object-cover ">
         </div>
@@ -177,9 +177,8 @@
                 <img src="/images/img/image 9.png" alt="" class="w-full h-full object-cover">
             </div>
 
-            <div class="max-w-[1536px] m-auto flex flex-col sm:gap-y-16 gap-y-8 py-8 px-4">
-                <div class="flex flex-col justify-center items-center sm:gap-y-6 gap-y-2" data-aos="zoom-in"
-                    data-aos-duration="500">
+            <div class="max-w-[1536px] m-auto flex flex-col sm:gap-y-16 gap-y-8 py-8 px-4 animate__animated animate__zoomIn">
+                <div class="flex flex-col justify-center items-center sm:gap-y-6 gap-y-2" >
                     <div class="w-44">
                         <img src="/images/logo/Mask group.png" alt="" class="w-full h-auto">
                     </div>
@@ -189,8 +188,7 @@
                         OTHER ROOM
                     </p>
 
-                    <div class="border-t border-2 border-[#CDB59D] my-2 max-w-[30%] w-full rounded-full"
-                        data-aos="zoom-in" data-aos-duration="500"></div>
+                    <div class="border-t border-2 border-[#CDB59D] my-2 max-w-[30%] w-full rounded-full"></div>
 
                     <p class="font-[300] xl:text-xl sm:text-lg text-base text-center max-w-[80%] w-full font-afacadFlux">
                         Lorem ipsum dolor sit amet consectetur. Elementum et pellentesque habitant id. Id feugiat eget

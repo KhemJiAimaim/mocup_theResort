@@ -7,6 +7,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5/dist/fancybox.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     @vite('resources/css/app.css')
     <title>@yield('title')</title>
     @yield('style')
@@ -19,7 +20,7 @@
     @include('layouts.navbar')
 
     <div class="text-white">
-        
+
         <div class="font-kanit">
             @yield('contents')
         </div>
@@ -41,7 +42,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5/dist/fancybox.umd.js"></script>
 
     <script>
-         AOS.init({
+        AOS.init({
             disable: window.innerWidth < 768, // ปิดใช้งาน AOS บนหน้าจอมือถือ
             offset: 0,
             once: true,
